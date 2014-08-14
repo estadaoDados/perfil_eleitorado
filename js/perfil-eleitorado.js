@@ -84,19 +84,34 @@ var Main = (function() {
         if (lista_candidatos.indexOf("total") == -1) {
             lista_candidatos.unshift("total");
         }
-        data = dimple.filterData(window.complete_data, "candidato", lista_candidatos)
+        data = dimple.filterData(window.complete_data, "candidato", "dilma")
+        data_total = dimple.filterData(window.complete_data, "candidato", "total")
         data = dimple.filterData(data, "categoria", categoria)
+        data_total = dimple.filterData(data_total, "categoria", categoria)
         var myChart = new dimple.chart(svg, data);
         myChart.setBounds(45,30,"80%","65%");
         //myChart.setMargins("10px","0px","10px","40px");
         myChart.addMeasureAxis("y", "valor");
-        var y = myChart.addCategoryAxis("x", ["dado","candidato"]);
+        var y = myChart.addCategoryAxis("x", "dado");
         y.title = ""
         y.addOrderRule(["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"])
         y.addGroupOrderRule(["total","dilma"])
         series = myChart.addSeries("candidato", dimple.plot.bar);
         series.addOrderRule(["total","dilma"])
         series.barGap = 0.3;
+        
+       var myChart2 = new dimple.chart(svg, data_total);
+       myChart2.setBounds(45,20,"85%","80%");
+
+        var y2 = myChart2.addCategoryAxis("x", "dado");
+        y2.addOrderRule(["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"])
+        
+        y2.title = "";
+        //myChart.setMargins("60px","30px","165px","70px");
+        myChart2.addMeasureAxis("y", "valor");
+        series2 = myChart2.addSeries("candidato", dimple.plot.bar);
+        series2.stacked = false
+        
         svg.append("text").text(categoria)
            .attr("x","37%")
            .attr("y","20px")
@@ -105,8 +120,9 @@ var Main = (function() {
            .style("color", "Black");
 
         myChart = _configuraCores(myChart)
-
+        myChart2 = _configuraCores(myChart2)
         myChart.draw();
+        myChart2.draw();
     }
 
     function _ordemLegenda(recorte) {
