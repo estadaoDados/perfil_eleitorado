@@ -24,7 +24,11 @@ var Main = (function() {
     function inicializa() {
         //TODO: Criar os 12 svgs
         for (var i=0 ; i < categoria.length ; i++) {
-            lista_svgs[categoria[i]] = dimple.newSvg("#graf-"+categoria[i], "100%", "80%");
+            var svg = dimple.newSvg("#graf-"+categoria[i], "100%", "80%");
+            d3.select("#graf-"+categoria[i]+" svg")
+                .attr("width", dimple._parentWidth(svg.node()) + "px")
+                .attr("height", dimple._parentWidth(svg.node())*1.2 + "px");
+            lista_svgs[categoria[i]] = svg;
         }
 
         //desenha grafico
@@ -58,8 +62,8 @@ var Main = (function() {
             // As of 1.1.0 the second parameter here allows you to draw
             // without reprocessing data.  This saves a lot on performance
             // when you know the data won't have changed.
-            chart.draw(0, true);
-            _atualiza_background();
+            //chart.draw(0, true);
+            //_atualiza_background();
         };
     }
 
@@ -83,8 +87,8 @@ var Main = (function() {
         data = dimple.filterData(window.complete_data, "candidato", lista_candidatos)
         data = dimple.filterData(data, "categoria", categoria)
         var myChart = new dimple.chart(svg, data);
-        myChart.setBounds(45,20,"85%","80%");
-        //myChart.setMargins("60px","30px","165px","70px");
+        myChart.setBounds(45,30,"80%","65%");
+        //myChart.setMargins("10px","0px","10px","40px");
         myChart.addMeasureAxis("y", "valor");
         var y = myChart.addCategoryAxis("x", ["dado","candidato"]);
         y.title = ""

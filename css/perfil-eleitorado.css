@@ -43,6 +43,27 @@
   display: block;
 }
 
+.grafico {
+  z-index: 100;
+}
+
+.camada {
+  opacity:0.2;
+  -moz-opacity: 0.2;
+  filter: alpha(opacity=0.2);
+}
+
+.camada:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=1);
+  -webkit-transition: opacity .15s ease-in-out;
+  -moz-transition: opacity .15s ease-in-out;
+  -ms-transition: opacity .15s ease-in-out;
+  -o-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+
 body  {
   background-color: #E6E8EE;
 }
