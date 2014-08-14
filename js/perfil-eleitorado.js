@@ -93,16 +93,15 @@ var Main = (function() {
         series = myChart.addSeries("candidato", dimple.plot.bar);
         series.addOrderRule(["total","dilma"])
         series.barGap = 0.3;
-        svg
-   	 	    .append("text").text(categoria)
-   		    .attr("x","37%")
-   		    .attr("y","20px")
+        svg.append("text").text(categoria)
+           .attr("x","37%")
+           .attr("y","20px")
            .style("font-family", "sans-serif")
            .style("font-size", "20px")
            .style("color", "Black");
-           
+
         myChart = _configuraCores(myChart)
-        
+
         myChart.draw();
     }
 
