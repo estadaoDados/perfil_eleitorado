@@ -88,23 +88,36 @@ var Main = (function() {
         myChart.addMeasureAxis("y", "valor");
         var y = myChart.addCategoryAxis("x", ["dado","candidato"]);
         y.title = ""
+        y.addOrderRule(["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"])
+        y.addGroupOrderRule(["total","dilma"])
         series = myChart.addSeries("candidato", dimple.plot.bar);
-        series.barGap = 0.42;
+        series.addOrderRule(["total","dilma"])
+        series.barGap = 0.3;
         svg
    	 	    .append("text").text(categoria)
    		    .attr("x","37%")
    		    .attr("y","20px")
            .style("font-family", "sans-serif")
            .style("font-size", "20px")
-           .style("color", "Black");			;
-
+           .style("color", "Black");
+           
+        myChart = _configuraCores(myChart)
+        
         myChart.draw();
     }
 
     function _ordemLegenda(recorte) {
     }
 
-    function _configuraCores(grafico, pergunta) {
+    function _configuraCores(grafico) {
+        grafico.assignColor("aecio","#1C4587");
+        grafico.assignColor("dilma","#CC0000");
+        grafico.assignColor("campos","#E69138");
+        grafico.assignColor("pastor","#6AA84F");
+        grafico.assignColor("indeciso","#2E2B2D");
+        grafico.assignColor("branco","#C9C9C9");
+        grafico.assignColor("total","#181C19")
+        return grafico;
     }
 
 
