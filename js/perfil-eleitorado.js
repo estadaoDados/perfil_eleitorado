@@ -2,6 +2,7 @@ var Main = (function() {
 
     var candidato ='eduardo campos',
         defaulCand = 'eduardo campos',
+        categorias = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         possibilidades = ["eduardo campos","dilma roussseff", "aecio neves","pastor everaldo","outros","brancos e nulos","indecisos"],
         complete_data = null,
         meuGrafico = null,
@@ -62,7 +63,6 @@ var Main = (function() {
         y.title = ""
         series = myChart.addSeries("candidato", dimple.plot.bar);
         series.barGap = 0.42;
-        y.overrideMin = 3500;
         svg
    	 	    .append("text").text("Idade")
    		    .attr("x","37%")
