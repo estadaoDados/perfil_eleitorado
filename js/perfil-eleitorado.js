@@ -9,10 +9,10 @@ var Main = (function() {
 
     function inicializa() {
         //TODO: Criar os 12 svgs
-        svg = dimple.newSvg("#grafico", "100%", "80%");
+        svg = dimple.newSvg("#graf-idade", "100%", "80%");
 
         //desenha grafico
-        d3.csv("dados/perfis.csv", function (data) {
+        d3.csv("dados/dados_perfil.csv", function (data) {
             window.complete_data = data;
 
             crossroads.addRoute('/candidato/{cand}', function(cand){
@@ -52,7 +52,18 @@ var Main = (function() {
     }
 
     function _cria_grafico() {
-
+        data = dimple.filterData(window.complete_data, "candidato", ["total","dilma"])
+        data = dimple.filterData(data, "categoria", "idade")
+        var myChart = new dimple.chart(svg, data);
+        myChart.setBounds(45,20,"85%","80%");
+        myChart.setMargins("60px","30px","165px","70px");
+        myChart.addMeasureAxis("y", "valor");
+        var y = myChart.addCategoryAxis("x", ["dado","candidato"]);
+        y.title = ""
+        series = myChart.addSeries("candidato", dimple.plot.bar);
+        series.barGap = 0.42;
+        y.overrideMin = 3500;  
+        myChart.draw();
     }
 
     function _ordemLegenda(recorte) {
