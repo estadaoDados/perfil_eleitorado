@@ -62,7 +62,15 @@ var Main = (function() {
         y.title = ""
         series = myChart.addSeries("candidato", dimple.plot.bar);
         series.barGap = 0.42;
-        y.overrideMin = 3500;  
+        y.overrideMin = 3500;
+        svg
+   	 	    .append("text").text("Idade")
+   		    .attr("x","37%")
+   		    .attr("y","20px")
+           .style("font-family", "sans-serif")
+           .style("font-size", "20px")
+           .style("color", "Black");			;	
+        
         myChart.draw();
     }
 
