@@ -1,0 +1,116 @@
+<html lang="pt-br">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Estadão Dados: Perfil do Eleitorado</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index">
+  <meta name="creator" content="Diego Rabatone Oliveira">
+  <meta name="creator" content="José Roberto Toledo">
+  <meta name="creator" content="Daniel Bramatti">
+  <meta name="creator" content="Rodrigo Burgarelli">
+  <meta name="creator" content="Lucas de Abreu Maia">
+  <meta name="creator" content="Estadão Dados">
+  <meta name="creator" content="Estadão.com.br">
+  <meta property="og:site_name" content="Estadão Dados">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- meta tags específicas de cada projeto -->
+  <meta name="author" content="Diego Rabatone Oliveira"> <!-- A pessoa responsável pelo desenvolvimento deste arquivo -->
+  <meta name="DC.creator " content="Diego Rabatone Oliveira"> <!-- Desenvolvedor da página -->
+  <meta name="DC.creator.address" content="diraol@diraol.eng.br"> <!-- email do autor da página -->
+  <meta name="application-name" content="Perfil do Eleitorado"> <!-- O nome desta aplicação -->
+  <meta name="description" content="Perfil do Eleitorado: Selecione um presidenciável e veja o perfil do eleitorado de acordo com as pesquisas do Ibope. #estadaodados"> <!-- Descrição curta e precisa do conteúdo desta página -->
+  <meta name="keywords" content="dados abertos, opendata, eleições2014, eleitorado"> <!-- Palavras reletantes relativas ao conteúdo dessa página. Em formato texto e separadas por vírgula. -->
+  <meta property="og:title" content="Estadão Dados: Perfil do Eleitorado"/>
+  <meta property="og:description" content="Perfil do Eleitorado: Selecione um presidenciável e veja o perfil do eleitorado de acordo com as pesquisas do Ibope. #estadaodados"/>
+  <meta property="og:url" content="http://blog.estadaodados.com/perfil-eleitorado/"/> <!-- ex: http://estadaodados.com/html/coligacoes/ -->
+  <meta property="og:image" content="http://estadaodados.com/cruzador/imgs/social_img.png"/> <!-- imagem que aparecerá no facebook quando o site for compartilhado -->
+
+  <!-- Le styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css.map" rel="stylesheet">
+  <link href="css/bootstrap-theme.css.map" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/estadaodados.css" rel="stylesheet">
+  <link href="css/perfil-eleitorado.css" rel="stylesheet">
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="imgs/favicon.png">
+ </head>
+<body>
+
+  <!-- Conteúdo Principal -->
+  <section id="main_content" class="container-fluid">
+        <div class="col-xs-12 div-botao-candidato">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="botao-selecao-candidato" data-candidato="eduardo-campos">Eduardo Campos</span>&nbsp;<span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li class="cand-dilma-rousseff"><a class="link-cand" href="#candidato/dilma-rousseff">Dilma Rousseff</a></li>
+                <li class="cand-aecio-neves"><a class="link-cand" href="#candidato/aecio-neves">Aécio Neves</a></li>
+                <li class="cand-eduardo-campos"><a class="link-cand" href="#candidato/eduardo-campos">Eduardo Campos</a></li>
+                <li class="cand-pastor-everaldo"><a class="link-cand" href="#candidato/pastor-everaldo">Pastor Everaldo</a></li>
+                <li class="cand-outros"><a class="link-cand" href="#candidato/outros">Outros</a></li>
+                <li class="cand-brancos-e-nulos"><a class="link-cand" href="#candidato/brancos-e-nulos">Brancos e Nulos</a></li>
+                <li class="cand-indecidos"><a class="link-cand" href="#candidato/indecidos">Indecisos</a></li>
+              </ul>
+            </div><!-- /btn-group-->
+          </div><!-- /input-group-->
+        </div><!-- /.col-xs-12-->
+        <!-- gráficos -->
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-idade" class="grafico idade"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-renda-familiar" class="grafico renda-familiar"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-escolaridade" class="grafico escolaridade"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-regiao" class="grafico regiao"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-condicao-municipio" class="grafico condicao-municipio"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-religiao" class="grafico religiao"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-cor" class="grafico cor"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-interesse" class="grafico interesse"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-vida-hoje" class="grafico vida-hoje"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-avaliacao-governo" class="grafico avaliacao-governo"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-desejo-mudanca" class="grafico desejo-mudanca"></div></div>
+        <div class="col-xs-12 col-sm-6 col-md4 col-lg-4"><div id="graf-2turno-aecio" class="grafico 2turno-aecio"></div></div>
+        
+        <div class="col-xs-12 explicativo funcionamento">
+          <p>Selecione um assunto e cruze por um tipo de eleitor</p>
+          <p><small>*NS/NR: não sabe e não respondeu</small></p>
+          <p><small>**A pesquisa de 15/jun é da CNI/Ibope</small></p>
+        </div>
+  </section>
+  <aside id="leia_tambem" class="col-xs-12">
+    <h5>Leia também:</h5>
+    <p><a href=""></a><br/>
+  </aside>
+
+  <!-- AddThis Button END -->
+  <footer class="col-xs-12 text-center">
+   <p id="dados_pesquisas">
+    <small></small>
+   </p>
+   <p>Daniel Bramatti, Diego Rabatone, José Roberto de Toledo, Lucas de Abreu Maia e Rodrigo Burgarelli</p>
+   <p><b>Grupo Estado</b> • Copyright © 2007-2014 • <a href="https://creativecommons.org/licenses/by-sa/3.0/br/">Alguns direitos reservados</a></p>
+  </footer>
+
+  <!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.min.js"></script>
+  <!--script src="js/jquery.min.map"></script-->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/dimple.v2.0.0.min.js"></script>
+  <script src="js/signals.min.js"></script>
+  <script src="js/crossroads.js"></script>
+  <script src="js/perfil-eleitorado.js"></script>
+
+  <!-- AddThis Button BEGIN -->
+  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53751e9e65674220"></script>
+  <!-- AddThis Button END -->
+
+    <!-- google analytics -->
+    <script language="javascript" type="text/javascript" src="http://estadaodados.com/base/js/edados_analytics.js"></script>
+
+</body>
+</html>
