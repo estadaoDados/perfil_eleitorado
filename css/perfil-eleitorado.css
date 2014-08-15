@@ -64,6 +64,11 @@
   transition: opacity .55s ease-in-out;
 }
 
+footer {
+  color: #fff;
+  font-weight: bold;
+}
+
 body  {
   background-color: #E6E8EE;
   margin-top: 51px;
