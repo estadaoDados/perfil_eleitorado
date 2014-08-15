@@ -101,7 +101,7 @@ var Main = (function() {
 
     function _cria_grafico(svg, candidato, categoria) {
 
-        data_cand = dimple.filterData(window.complete_data, "candidato", "dilma");
+        data_cand = dimple.filterData(window.complete_data, "candidato", candidato);
         data_cand = dimple.filterData(data_cand, "categoria", categoria);
 
         data_total = dimple.filterData(window.complete_data, "candidato", "total");
