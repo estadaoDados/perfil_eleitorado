@@ -50,7 +50,10 @@ var Main = (function() {
             for (var i=0; i<a.length; i++){
                 a[i].onclick=function(e){
                     e.preventDefault();
-                    crossroads.parse('/candidato/' + this.href.split("#candidato/").pop());
+                    var candidato = this.href.split("#candidato/").pop();
+                    $("[class*=cand-].active").removeClass("active");
+                    $(".cand-"+candidato).addClass("active");
+                    crossroads.parse('/candidato/' + candidato);
                 }
             };
 
