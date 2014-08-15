@@ -11,12 +11,26 @@ var Main = (function() {
             "condicao_municipio":"Condição do município",
             "religiao":"Religião",
             "cor":"Cor",
-            "interesse":"Interesse",
-            "vida_hoje":"Vida hoje",
+            "interesse":"Interesse nas eleições",
+            "vida_hoje":"Satisfação com a vida",
             "avaliacao_governo":"Avaliação do Governo",
             "desejo_mudanca":"Desejo de mudança",
             "2turno_aecio":"2º turno com Aécio"
         },
+        ordens = {
+            "idade": ["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"],
+            "renda_familiar": ["Ate 1","1 a 2","2 a 5","Mais de 5"],
+            "escolaridade": ["Fund. 1","Fund. 2","Medio","Superior"],
+            "regiao": ["Sudeste","Nordeste","Sul","Norte/CO"],
+            "condicao_municipio": ["Capital","Periferia","Interior"],
+            "religiao": ["Catolica","Evangelica","Outras"],
+            "cor": ["Preta ou parda","Branca","Outras"],
+            "interesse": ["Muito","Médio","Nenhum"],
+            "vida_hoje": ["Satisfeito","Insatisfeito"],
+            "avaliacao_governo": ["Ótimo e bom","Regular","Ruim e péssimo"],
+            "desejo_mudanca": ["Quer mudança","Quer continuidade"],
+            "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"]
+        }
         possibilidades = ["campos","dilma", "aecio","pastor","outros","branco","indecisos"],
         complete_data = null,
         meuGrafico = null,
@@ -108,16 +122,16 @@ var Main = (function() {
 
         data_total = dimple.filterData(window.complete_data, "candidato", "total");
         data_total = dimple.filterData(data_total, "categoria", categoria);
-        console.log(data_cand)
+
         var chart = new dimple.chart(svg);
             chart.setBounds(25,30,"65%","75%");
 
         var x = chart.addCategoryAxis("x","dado");
             x.title= ""
+            x.addOrderRule(ordens[categoria]);
 
         var y = chart.addMeasureAxis("y", "valor");
-            y.title = "";
-            y.addOrderRule(["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"]);
+            y.title = ""
 
         var serie_cand = chart.addSeries("candidato", dimple.plot.bar,[x, y]);
             serie_cand.data = data_cand;
@@ -177,7 +191,7 @@ var Main = (function() {
 
         lista_charts[categoria] = chart;
     }
-
+    
     return {
         inicializa: inicializa,
     };
