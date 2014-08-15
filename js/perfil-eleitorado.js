@@ -144,11 +144,12 @@ var Main = (function() {
         chart = _configuraCores(chart);
 
         svg.append("text").text(converte_cat[categoria])
-           .attr("x","37%")
+           .attr("x","37%")        
            .attr("y","20px")
            .style("font-family", "sans-serif")
            .style("font-size", "20px")
-           .style("color", "Black");
+           .style("color", "Black")
+           .style("text-anchor","middle");
 
         chart.staggerDraw = true;
         chart.ease = "bounce";
