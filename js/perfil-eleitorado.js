@@ -17,7 +17,7 @@ var Main = (function() {
             "desejo_mudanca":"Desejo de mudança",
             "2turno_aecio":"2º turno com Aécio"
         },
-        possibilidades = ["campos","dilma", "aecio","pastor","outros","brancos","indecisos"],
+        possibilidades = ["campos","dilma", "aecio","pastor","outros","branco","indecisos"],
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
@@ -108,7 +108,7 @@ var Main = (function() {
 
         data_total = dimple.filterData(window.complete_data, "candidato", "total");
         data_total = dimple.filterData(data_total, "categoria", categoria);
-
+        console.log(data_cand)
         var chart = new dimple.chart(svg);
             chart.setBounds(25,30,"65%","75%");
 
