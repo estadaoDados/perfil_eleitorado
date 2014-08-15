@@ -172,13 +172,14 @@ var Main = (function() {
     }
 
     function _configuraCores(grafico) {
-        grafico.assignColor("aecio","#1C4587");
-        grafico.assignColor("dilma","#CC0000");
-        grafico.assignColor("campos","#E69138");
-        grafico.assignColor("pastor","#6AA84F");
-        grafico.assignColor("indeciso","#2E2B2D");
-        grafico.assignColor("branco","#C9C9C9");
-        grafico.assignColor("total","#181C19")
+        grafico.assignColor("aecio","#34495e");
+        grafico.assignColor("dilma","#c0392b");
+        grafico.assignColor("campos","#e67e22");
+        grafico.assignColor("pastor","#28b463");
+        grafico.assignColor("outros","#8e44ad");
+        grafico.assignColor("indeciso","#95a5a6");
+        grafico.assignColor("branco","#7f8c8d");
+        grafico.assignColor("total","#181C19");
         return grafico;
     }
 
