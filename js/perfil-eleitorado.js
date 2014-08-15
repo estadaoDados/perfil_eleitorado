@@ -5,7 +5,7 @@ var Main = (function() {
         categoria = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
             "idade":"Idade",
-            "renda_familiar":"Renda familiar",
+            "renda_familiar":"Renda familiar (SM)",
             "escolaridade":"Escolaridade",
             "regiao":"Região",
             "condicao_municipio":"Condição do município",
@@ -84,21 +84,12 @@ var Main = (function() {
                 }
             };
 
+            $('.camada').on("mouseover",function(){$(".touched").removeClass("touched");});
+
             var lista_candidatos = ["campos"];
 
             _cria_graficos(lista_candidatos);
         });
-
-        window.onresize = function () {
-            // As of 1.1.0 the second parameter here allows you to draw
-            // without reprocessing data.  This saves a lot on performance
-            // when you know the data won't have changed.
-            for (var i=0 ; i < categoria.length ; i++ ) {
-                var chart = lista_charts[categoria[i]];
-                chart.draw(0,true);
-                _atualiza_background(categoria[i]);
-            }
-        };
     }
 
     function _cria_graficos(lista_candidatos){
@@ -106,13 +97,6 @@ var Main = (function() {
             var svg = lista_svgs[categoria[i]];
             _cria_grafico(svg, lista_candidatos, categoria[i]);
         }
-    }
-
-    function _atualiza_background(categoria) {
-        var svg = d3.select("#graf-" + categoria + " svg");
-        d3.select("#graf-"+categoria)
-            .attr("width", dimple._parentWidth(svg.node()) - 225 )
-            .attr("height", dimple._parentHeight(svg.node()) - 100)
     }
 
     function _cria_grafico(svg, candidato, categoria) {
@@ -124,7 +108,7 @@ var Main = (function() {
         data_total = dimple.filterData(data_total, "categoria", categoria);
 
         var chart = new dimple.chart(svg);
-            chart.setBounds(25,30,"65%","75%");
+            chart.setBounds(25,30,"95%","75%");
 
         var x = chart.addCategoryAxis("x","dado");
             x.title= ""
@@ -144,12 +128,14 @@ var Main = (function() {
         chart = _configuraCores(chart);
 
         svg.append("text").text(converte_cat[categoria])
-           .attr("x","37%")        
+           .attr("x","50%")
            .attr("y","20px")
            .style("font-family", "sans-serif")
            .style("font-size", "20px")
            .style("color", "Black")
            .style("text-anchor","middle");
+
+        serie_cand = altera_tooltip(serie_cand, categoria);
 
         chart.staggerDraw = true;
         chart.ease = "bounce";
@@ -158,7 +144,31 @@ var Main = (function() {
         lista_charts[categoria] = chart;
     }
 
-    function _ordemLegenda(recorte) {
+    function altera_tooltip(serie, categoria) {
+      // Override the standard tooltip behaviour
+      serie.addEventHandler("mouseover", function (e){
+
+        // Draw the text information in the top left corner
+        var recorte = e.xValue,
+            valor = d3.format(",.f")(e.yValue);
+        $(".recorte_cat").text(e.xValue);
+        $(".mostra_valor").text(valor);
+        $(".nome_candidato").text($(".active").text());
+
+        var valor_total = dimple.filterData(window.complete_data, "candidato", "total");
+            valor_total = dimple.filterData(valor_total, "categoria", categoria);
+            valor_total = dimple.filterData(valor_total, "dado", recorte);
+
+        if (parseFloat(valor) > parseFloat(valor_total[0]["valor"])) {
+            $(".arrow").removeClass("menor").addClass("maior");
+        } else {
+            $(".arrow").removeClass("maior").addClass("menor");
+        }
+
+        $(".valor_media").text(valor_total[0]["valor"])
+
+      });
+      return serie;
     }
 
     function _configuraCores(grafico) {
@@ -172,16 +182,14 @@ var Main = (function() {
         return grafico;
     }
 
-    function _limpar_legendas() {
-        $('*[class^="dimple-legend"]').remove()
-    }
-
     function _atualiza_graficos() {
         var data_cand = dimple.filterData(window.complete_data, "candidato", candidato);
 
         for (var i=0 ; i < categoria.length ; i++ ) {
             _atualiza_graf_categoria(data_cand, lista_charts[categoria[i]], categoria[i]);
         }
+
+        $("#graf-idade").parent().addClass("touched");
     }
 
     function _atualiza_graf_categoria(dados, chart, categoria){
@@ -192,7 +200,7 @@ var Main = (function() {
 
         lista_charts[categoria] = chart;
     }
-    
+
     return {
         inicializa: inicializa,
     };

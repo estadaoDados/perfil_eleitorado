@@ -67,6 +67,33 @@
 footer {
   color: #fff;
   font-weight: bold;
+  font-size: 16px;
+}
+
+.arrow{ 
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  height: 16px;
+}
+
+.arrow.maior {
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  -ms-transform: rotate(0deg);
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform: rotate(0deg);
+  -webkit-transform-origin: 50% 50%;
+}
+
+.arrow.menor {
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+  -ms-transform: rotate(180deg);
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform: rotate(180deg);
+  -webkit-transform-origin: 50% 50%;
 }
 
 body  {
