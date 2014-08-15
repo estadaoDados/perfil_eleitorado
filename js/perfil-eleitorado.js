@@ -3,6 +3,20 @@ var Main = (function() {
     var candidato ='eduardo campos',
         defaulCand = 'eduardo campos',
         categoria = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
+        converte_cat = {
+            "idade":"Idade",
+            "renda_familiar":"Renda familiar",
+            "escolaridade":"Escolaridade",
+            "regiao":"Região",
+            "condicao_municipio":"Condição do município",
+            "religiao":"Religião",
+            "cor":"Cor",
+            "interesse":"Interesse",
+            "vida_hoje":"Vida hoje",
+            "avaliacao_governo":"Avaliação do Governo",
+            "desejo_mudanca":"Desejo de mudança",
+            "2turno_aecio":"2º turno com Aécio"
+        },
         possibilidades = ["campos","dilma", "aecio","pastor","outros","brancos","indecisos"],
         complete_data = null,
         meuGrafico = null,
@@ -23,7 +37,6 @@ var Main = (function() {
         lista_charts = {};
 
     function inicializa() {
-        //TODO: Criar os 12 svgs
         for (var i=0 ; i < categoria.length ; i++) {
             var svg = dimple.newSvg("#graf-"+categoria[i], "100%", "80%");
             d3.select("#graf-"+categoria[i]+" svg")
@@ -116,7 +129,7 @@ var Main = (function() {
 
         chart = _configuraCores(chart);
 
-        svg.append("text").text(categoria)
+        svg.append("text").text(converte_cat[categoria])
            .attr("x","37%")
            .attr("y","20px")
            .style("font-family", "sans-serif")
