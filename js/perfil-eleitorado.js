@@ -108,7 +108,7 @@ var Main = (function() {
         data_total = dimple.filterData(data_total, "categoria", categoria);
 
         var chart = new dimple.chart(svg);
-            chart.setBounds(25,30,"95%","75%");
+            chart.setBounds(25,30,"85%","75%");
 
         var x = chart.addCategoryAxis("x","dado");
             x.title= ""
@@ -135,7 +135,7 @@ var Main = (function() {
            .style("color", "Black")
            .style("text-anchor","middle");
 
-        serie_cand = altera_tooltip(serie_cand, categoria);
+        //serie_cand = altera_tooltip(serie_cand, categoria);
 
         chart.staggerDraw = true;
         chart.ease = "bounce";
