@@ -53,19 +53,24 @@
   filter: alpha(opacity=0.2);
 }
 
-.camada:hover {
+.camada:hover, .camada.touched {
   opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=1);
-  -webkit-transition: opacity .15s ease-in-out;
-  -moz-transition: opacity .15s ease-in-out;
-  -ms-transition: opacity .15s ease-in-out;
-  -o-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -ms-transition: opacity .55s ease-in-out;
+  -o-transition: opacity .55s ease-in-out;
+  transition: opacity .55s ease-in-out;
 }
 
 body  {
   background-color: #E6E8EE;
+  margin-top: 51px;
+}
+
+nav.navbar.navbar-fixed-top {
+  height: 35px;
 }
 
 .explicativo p  {
