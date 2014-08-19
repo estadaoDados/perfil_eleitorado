@@ -108,7 +108,7 @@ var Main = (function() {
         data_total = dimple.filterData(data_total, "categoria", categoria);
 
         var chart = new dimple.chart(svg);
-            chart.setBounds(25,30,"85%","75%");
+            chart.setBounds(25,30,"80%","75%");
 
         var x = chart.addCategoryAxis("x","dado");
             x.title= ""
