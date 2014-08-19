@@ -31,7 +31,7 @@ var Main = (function() {
             "desejo_mudanca": ["Quer mudança","Quer continuidade"],
             "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"]
         }
-        possibilidades = ["campos","dilma", "aecio","pastor","outros","branco","indeciso"],
+        possibilidades = ["campos","dilma", "aecio","pastor","outros","branco","indeciso","marina13","marina10"],
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
