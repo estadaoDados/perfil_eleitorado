@@ -32,41 +32,94 @@
   <link href="css/bootstrap.css.map" rel="stylesheet">
   <link href="css/bootstrap-theme.css.map" rel="stylesheet">
   <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-  <!--<link href="css/estadaodados.css" rel="stylesheet">-->
+  <link href="css/estadaodados.css" rel="stylesheet">
   <link href="css/perfil-eleitorado.css" rel="stylesheet">
 
   <!-- Fav and touch icons -->
   <link rel="shortcut icon" href="imgs/favicon.png">
  </head>
 <body>
-  <iframe src="/base/menu_topo.html" width="100%" seamless scrolling="no" frameborder="0" height="51px" class="navbar-fixed-top" id="edados_menu"></iframe>
-  <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <!--<iframe src="/base/menu_topo.html" width="100%" seamless scrolling="no" frameborder="0" height="51px" class="navbar-fixed-top" id="edados_menu"></iframe>-->
+    <nav class="navbar navbar-fixed-top" id="edados_menu">
+      <div class="container-fluid" id="navbar-edados">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-edados">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="imgs/logo_estadao_dados.png" id="logo_estadao_dados" title="Estadão Dados"/></a>
+        </div>
+        <div class="navbar-collapse collapse navbar-collapse-edados" id="navbar-collaps-edados">
+          <ul class="nav navbar-nav navbar-edados">
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                Projetos 
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <!--START_MENU_ITENS-->
+                <li role="presentation"><a href="/basometro">Basômetro</a></li>
+                <li role="presentation"><a href="/biomas2012">Biomas 2012</a></li>
+                <li role="presentation"><a href="/coligacoes">Coligações</a></li>
+                <li role="presentation"><a href="/cotas">Cotas</a></li>
+                <li role="presentation"><a href="/cruzador">Cruzador de Opiniões</a></li>
+                <li role="presentation"><a href="/eleicoes2012">Eleições 2012</a></li>
+                <li role="presentation"><a href="/ideb">IDEB</a></li>
+                <li role="presentation"><a href="/intencaodevoto">Intenção de Voto</a></li>
+                <li role="presentation"><a href="/piramide_eleitoral">Pirâmide Eleitoral</a></li>
+                <li role="presentation"><a href="/quespvcquer">Que SP vc quer?</a></li>
+                <li role="presentation"><a href="/religiao">Religiões</a></li>
+                <li role="presentation"><a href="/ringue2014">Ringue 2014</a></li>
+                <li role="presentation"><a href="/santamaria">Santa Maria</a></li>
+                <li role="presentation"><a href="/saopauloquebalanca">São Paulo que balança</a></li>
+                <!--END_MENU_ITENS-->
+              </ul>
+            </li>
+            <li><a href="http://blog.estadaodados.com">Blog</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                Estadão
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu" role="menuEstadao" aria-labelledby="dLabelEstadao">
+                <li><a href="http://politica.estadao.com.br/" target="_top" title="POLÍTICA">POLÍTICA</a></li>
+                <li><a href="http://economia.estadao.com.br/" target="_top" title="ECONOMIA">ECONOMIA</a></li>
+                <li><a href="http://esportes.estadao.com.br/" target="_top" title="ESPORTES">ESPORTES</a></li>
+                <li><a href="http://blogs.estadao.com.br/link/" target="_top" title="LINK">LINK</a></li>
+                <li><a href="http://rta-se.estadao.com.br/" target="_top" title="DIVIRTA-SE">DIVIRTA-SE</a></li>
+                <li><a href="http://pme.estadao.com.br/" target="_top" title="PME">PME</a></li>
+                <li><a href="http://www.estadao.com.br/jornal-do-carro" target="_top" title="JORNAL DO CARRO">JORNAL DO CARRO</a></li>
+                <li><a href="http://www.estadao.com.br/opiniao/" target="_top" title="OPINIÃO">Opinião</a></li>
+                <li><a href="http://acervo.estadao.com.br/" target="_top" title="ACERVO">ACERVO</a></li>
+                <li><a href="http://radio.estadao.com.br/" target="_top" title="RÁDIO">RÁDIO</a></li>
+                <li><a href="http://territorioeldorado.limao.com.br" target="_top" title="Eldorado">Eldorado</a></li>
+                <li><a href="http://revistapiaui.estadao.com.br/" target="_top" title="Piauí">Piauí</a></li>
+                <li><a href="http://www.broadcastpolitico.com.br/experimente/" target="_top" title="Broadcast Político">Broadcast Político</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav nav-pills navbar-nav">
-          <li class="cand-dilma"><a class="link-cand" href="#candidato/dilma">Dilma Rousseff</a></li>
-          <li class="cand-aecio"><a class="link-cand" href="#candidato/aecio">Aécio Neves</a></li>
-          <li class="cand-campos active"><a class="link-cand" href="#candidato/campos">Eduardo Campos</a></li>
-          <li class="cand-marina13"><a class="link-cand" href="#candidato/marina13">Marina Silva (2013)</a></li>
-          <li class="cand-marina10"><a class="link-cand" href="#candidato/marina10">Marina Silva (2010)</a></li>
-          <li class="cand-pastor"><a class="link-cand" href="#candidato/pastor">Pastor Everaldo</a></li>
-          <li class="cand-outros"><a class="link-cand" href="#candidato/outros">Outros</a></li>
-          <li class="cand-branco"><a class="link-cand" href="#candidato/branco">Brancos e Nulos</a></li>
-          <li class="cand-indeciso"><a class="link-cand" href="#candidato/indeciso">Indecisos</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+    </nav> <!-- Fim da barra de navegação do Estadão Dados -->
 
-  <!-- Conteúdo Principal -->
+    <footer class="container">
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="navbar-inner navbar-content-center">
+          <div class="col-xs-12 col-sm-4 text-center"><p>Recorte: <span class="recorte_cat">-</span></p></div>
+          <div class="col-xs-6 col-sm-4 text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></div>
+          <div class="col-xs-6 col-sm-4 text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média (<span class="valor_media">-</span>%)</p></div>
+          <!--<ul class="nav nav-pills nav-justified">-->
+            <!--<li class="text-center"><p>Recorte: <span class="recorte_cat">-</span></p></li>-->
+            <!--<li class="text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></li>-->
+            <!--<li class="text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média (<span class="valor_media">-</span>%)</p></li>-->
+          <!--</ul>-->
+        </div>
+      </div>
+    </footer>
+
+ <!-- Conteúdo Principal -->
   <section id="main_content" class="container-fluid">
         <!-- gráficos -->
         <div class="col-xs-12 col-sm-6 col-md4 col-lg-4 camada touched"><div id="graf-idade" class="grafico idade"></div></div>
@@ -84,17 +137,31 @@
   </section>
 
   <!-- AddThis Button END -->
-  <!--footer class="container">
-    <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation">
-      <div class="navbar-inner navbar-content-center">
-        <ul class="nav nav-pills nav-justified">
-          <li class="text-center"><p><span class="recorte_cat">-</span></p></li>
-          <li class="text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></li>
-          <li class="text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média (<span class="valor_media">-</span>%)</p></li>
+  <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation" id="menu_candidatos">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".candidatos">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse candidatos">
+        <ul class="nav nav-pills navbar-nav">
+          <li class="cand-dilma"><a class="link-cand" href="#candidato/dilma">Dilma Rousseff</a></li>
+          <li class="cand-aecio"><a class="link-cand" href="#candidato/aecio">Aécio Neves</a></li>
+          <li class="cand-campos active"><a class="link-cand" href="#candidato/campos">Eduardo Campos</a></li>
+          <li class="cand-marina13"><a class="link-cand" href="#candidato/marina13">Marina Silva (2013)</a></li>
+          <li class="cand-marina10"><a class="link-cand" href="#candidato/marina10">Marina Silva (2010)</a></li>
+          <li class="cand-pastor"><a class="link-cand" href="#candidato/pastor">Pastor Everaldo</a></li>
+          <li class="cand-outros"><a class="link-cand" href="#candidato/outros">Outros</a></li>
+          <li class="cand-branco"><a class="link-cand" href="#candidato/branco">Brancos e Nulos</a></li>
+          <li class="cand-indeciso"><a class="link-cand" href="#candidato/indeciso">Indecisos</a></li>
         </ul>
       </div>
     </div>
-  </footer-->
+  </div>
 
   <!-- Le javascript
   ================================================== -->

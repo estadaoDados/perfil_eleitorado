@@ -135,7 +135,7 @@ var Main = (function() {
            .style("color", "Black")
            .style("text-anchor","middle");
 
-        //serie_cand = altera_tooltip(serie_cand, categoria);
+        serie_cand = altera_tooltip(serie_cand, categoria);
 
         chart.staggerDraw = true;
         chart.ease = "bounce";
@@ -153,7 +153,7 @@ var Main = (function() {
             valor = d3.format(",.f")(e.yValue);
         $(".recorte_cat").text(e.xValue);
         $(".mostra_valor").text(valor);
-        $(".nome_candidato").text($(".active").text());
+        $(".nome_candidato").text($("#menu_candidatos .active").text());
 
         var valor_total = dimple.filterData(window.complete_data, "candidato", "total");
             valor_total = dimple.filterData(valor_total, "categoria", categoria);

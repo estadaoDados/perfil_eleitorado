@@ -22,7 +22,7 @@ a.navbar-brand {
 }
 
 a.navbar-brand img {
-  height: 40px;
+  height: 36px;
 }
 
 #navbar-edados .navbar-toggle .icon-bar {
@@ -34,10 +34,12 @@ a.navbar-brand img {
 }
 
 #navbar-edados,
-#navbar-edados #navbar-collapse * {
+#navbar-edados li a,
+#navbar-edados #navbar-collapse *,
+#navbar-edados #navbar-collapse-edados a {
   background-color: rgb(2,80,129);
-  line-height: 20px;
-  font: 17px Arial, Helvetica, sans-serif bold;
+  line-height: 18px;
+  font: 15px Arial, Helvetica, sans-serif bold;
   font-weight: bold;
   color: #fff;
 }
