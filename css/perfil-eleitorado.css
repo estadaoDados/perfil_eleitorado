@@ -98,12 +98,8 @@ footer {
 
 body  {
   background-color: #E6E8EE;
-  margin-top: 55px;
+  margin-top: 105px;
 }
-
-/*nav.navbar.navbar-fixed-top {*/
-  /*height: 35px;*/
-/*}*/
 
 .explicativo p  {
   padding-left: 60px;
@@ -132,3 +128,12 @@ div.div-botao-pergunta .input-group {
 .titulo-header h2 {
   margin-top: 0;
 }
+
+#edados_menu {
+  top: 0;
+}
+
+div.navbar.navbar-fixed-top {
+  top: 50px;
+}
+
