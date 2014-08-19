@@ -1,7 +1,7 @@
 var Main = (function() {
 
-    var candidato ='eduardo campos',
-        defaulCand = 'eduardo campos',
+    var candidato ='dilma',
+        defaulCand = 'dilma',
         categoria = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
             "idade":"Idade",
@@ -84,9 +84,12 @@ var Main = (function() {
                 }
             };
 
-            $('.camada').on("mouseover",function(){$(".touched").removeClass("touched");});
+            $('.camada').on("click",function(){
+                $(".touched").removeClass("touched");
+                $(this).addClass("touched");
+            });
 
-            var lista_candidatos = ["campos"];
+            var lista_candidatos = ["dilma"];
 
             _cria_graficos(lista_candidatos);
         });
@@ -191,8 +194,9 @@ var Main = (function() {
         for (var i=0 ; i < categoria.length ; i++ ) {
             _atualiza_graf_categoria(data_cand, lista_charts[categoria[i]], categoria[i]);
         }
-
-        $("#graf-idade").parent().addClass("touched");
+        if (!$(".touched")){
+            $("#graf-regiao").parent().addClass("touched");
+        }
     }
 
     function _atualiza_graf_categoria(dados, chart, categoria){
