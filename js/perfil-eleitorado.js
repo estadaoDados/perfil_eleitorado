@@ -134,7 +134,7 @@ var Main = (function() {
            .attr("x","50%")
            .attr("y","20px")
            .style("font-family", "sans-serif")
-           .style("font-size", "20px")
+           .style("font-size", "18px")
            .style("color", "Black")
            .style("text-anchor","middle");
 
