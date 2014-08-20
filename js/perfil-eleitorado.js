@@ -153,6 +153,14 @@ var Main = (function() {
         lista_charts[categoria] = chart;
     }
 
+    function reordena_series() {
+        for (var i=0 ; i < categoria.length ; i++ ) {
+            $("#graf-" + categoria[i] + " svg .dimple-series-1").each(function(){
+                this.parentNode.appendChild(this);
+            });
+        }
+    }
+
     function altera_tooltip_media(serie) {
         serie.getTooltipText = function(e) {
             return ["Média: " + parseInt(e.yValue) + "%"];
@@ -210,6 +218,7 @@ var Main = (function() {
         if (!$(".touched")){
             $("#graf-regiao").parent().addClass("touched");
         }
+        reordena_series();
     }
 
     function _atualiza_graf_categoria(dados, chart, categoria){
@@ -223,6 +232,7 @@ var Main = (function() {
 
     return {
         inicializa: inicializa,
+        reordenar: reordena_series
     };
 
 })();
