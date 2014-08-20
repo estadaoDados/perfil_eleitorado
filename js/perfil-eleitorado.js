@@ -90,7 +90,9 @@ var Main = (function() {
             });
 
             if(window.location.hash) {
-                _cria_graficos(window.location.hash.split("#candidato/").pop());
+                var cand = window.location.hash.split("#candidato/").pop()
+                candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
+                _cria_graficos([candidato]);
             } else {
                 _cria_graficos(["dilma"]);
             }
