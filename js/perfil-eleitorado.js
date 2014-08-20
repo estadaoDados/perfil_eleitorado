@@ -93,6 +93,8 @@ var Main = (function() {
                 var cand = window.location.hash.split("#candidato/").pop()
                 candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
                 $("li.cand-"+candidato).addClass("active");
+            } else {
+                candidato = defaulCand;
             }
 
             _cria_graficos();
