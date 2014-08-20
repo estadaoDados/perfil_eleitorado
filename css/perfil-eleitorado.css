@@ -168,3 +168,21 @@ aside#dados_candidatos div.navbar.navbar-fixed-top {
 #main_content {
   padding-top: 5px;
 }
+
+@media (max-width: 991px) {
+  .ajuste-valores {
+    height: 30px;
+  }
+  .ajuste-graficos {
+    height: 60px;
+  }
+}
+
+@media (min-width: 991px) {
+  .ajuste-valores {
+    height: 0px;
+  }
+  .ajuste-graficos {
+    height: 30px;
+  }
+}

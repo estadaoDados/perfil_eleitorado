@@ -1,6 +1,6 @@
 var Main = (function() {
 
-    var candidato ='dilma',
+    var candidato = null,
         defaulCand = 'dilma',
         categoria = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
@@ -65,7 +65,7 @@ var Main = (function() {
 
             crossroads.addRoute('/candidato/{cand}', function(cand){
                 cand = decodeURI(cand);
-                candidato = possibilidades.indexOf(cand) > -1 ? cand : "campos";
+                candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
             });
 
             crossroads.routed.add(function(request, data){
@@ -89,9 +89,12 @@ var Main = (function() {
                 $(this).addClass("touched");
             });
 
-            var lista_candidatos = ["dilma"];
+            if(window.location.hash) {
+                _cria_graficos(window.location.hash.split("#candidato/").pop());
+            } else {
+                _cria_graficos(["dilma"]);
+            }
 
-            _cria_graficos(lista_candidatos);
         });
     }
 
