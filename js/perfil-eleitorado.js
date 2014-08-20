@@ -92,10 +92,10 @@ var Main = (function() {
             if(window.location.hash) {
                 var cand = window.location.hash.split("#candidato/").pop()
                 candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
-                $("li.cand-"+candidato).addClass("active");
             } else {
                 candidato = defaulCand;
             }
+            $("li.cand-"+candidato).addClass("active");
 
             _cria_graficos();
 
@@ -179,7 +179,7 @@ var Main = (function() {
             valor = parseInt(e.yValue);
         $(".recorte_cat").text(e.xValue);
         $(".mostra_valor").text(valor);
-        $(".nome_candidato").text($("#menu_candidatos .active").text());
+        $(".nome_candidato").text($(".cand-" + candidato).text());
 
         var valor_total = dimple.filterData(window.complete_data, "candidato", "total");
             valor_total = dimple.filterData(valor_total, "categoria", categoria);
