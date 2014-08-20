@@ -92,22 +92,22 @@ var Main = (function() {
             if(window.location.hash) {
                 var cand = window.location.hash.split("#candidato/").pop()
                 candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
-                _cria_graficos([candidato]);
-            } else {
-                _cria_graficos(["dilma"]);
+                $("li.cand-"+candidato).addClass("active");
             }
+
+            _cria_graficos();
 
         });
     }
 
-    function _cria_graficos(lista_candidatos){
+    function _cria_graficos(){
         for (var i=0 ; i < categoria.length ; i++ ) {
             var svg = lista_svgs[categoria[i]];
-            _cria_grafico(svg, lista_candidatos, categoria[i]);
+            _cria_grafico(svg, categoria[i]);
         }
     }
 
-    function _cria_grafico(svg, candidato, categoria) {
+    function _cria_grafico(svg, categoria) {
 
         data_cand = dimple.filterData(window.complete_data, "candidato", candidato);
         data_cand = dimple.filterData(data_cand, "categoria", categoria);
