@@ -81,6 +81,15 @@
   -webkit-transform-origin: 50% 50%;
 }
 
+.arrow.igual {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 50% 50%;
+}
+
 .arrow.menor {
   transform: rotate(180deg);
   transform-origin: 50% 50%;
@@ -159,7 +168,7 @@ aside#dados_candidatos div.navbar.navbar-fixed-top {
 }
 
 #menu_candidatos, #dados_candidatos {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   color: #fff;
   /*font-weight: bold;*/
   font-size: 14px;
