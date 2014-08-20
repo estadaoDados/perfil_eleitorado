@@ -144,6 +144,7 @@ var Main = (function() {
            .style("text-anchor","middle");
 
         serie_cand = altera_tooltip(serie_cand, categoria);
+        serie_total = altera_tooltip_media(serie_total);
 
         chart.staggerDraw = true;
         chart.ease = "bounce";
@@ -152,13 +153,20 @@ var Main = (function() {
         lista_charts[categoria] = chart;
     }
 
+    function altera_tooltip_media(serie) {
+        serie.getTooltipText = function(e) {
+            return ["Média: " + parseInt(e.yValue) + "%"];
+        }
+        return serie
+    }
+
     function altera_tooltip(serie, categoria) {
       // Override the standard tooltip behaviour
       serie.addEventHandler("mouseover", function (e){
 
         // Draw the text information in the top left corner
         var recorte = e.xValue,
-            valor = d3.format(",.f")(e.yValue);
+            valor = parseInt(e.yValue);
         $(".recorte_cat").text(e.xValue);
         $(".mostra_valor").text(valor);
         $(".nome_candidato").text($("#menu_candidatos .active").text());
