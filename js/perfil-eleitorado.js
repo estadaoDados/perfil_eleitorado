@@ -232,7 +232,6 @@ var Main = (function() {
 
     return {
         inicializa: inicializa,
-        reordenar: reordena_series
     };
 
 })();
