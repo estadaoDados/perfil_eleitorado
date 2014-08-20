@@ -159,9 +159,9 @@ aside#dados_candidatos div.navbar.navbar-fixed-top {
 }
 
 #menu_candidatos, #dados_candidatos {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color: #fff;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 14px;
 }
 
