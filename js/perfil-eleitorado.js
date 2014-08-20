@@ -185,9 +185,9 @@ var Main = (function() {
             valor_total = dimple.filterData(valor_total, "categoria", categoria);
             valor_total = dimple.filterData(valor_total, "dado", recorte);
 
-        if (parseInt(valor) > (parseFloat(valor_total[0]["valor"]) + 1)) {
+        if (parseInt(valor) > (parseInt(valor_total[0]["valor"]) + 1)) {
             $(".arrow").removeClass("menor").removeClass("igual").addClass("maior");
-        } else if (parseInt(valor) < (parseFloat(valor_total[0]["valor"]) - 1)) {
+        } else if (parseInt(valor) < (parseInt(valor_total[0]["valor"]) - 1)) {
             $(".arrow").removeClass("maior").removeClass("igual").addClass("menor");
         } else {
             $(".arrow").removeClass("maior").removeClass("menor").addClass("igual");
