@@ -4,6 +4,7 @@ var Main = (function() {
         defaulCand = 'dilma',
         categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
+            "sexo":"Sexo",
             "idade":"Idade",
             "renda_familiar":"Renda familiar (SM)",
             "escolaridade":"Escolaridade",
@@ -18,6 +19,7 @@ var Main = (function() {
             "2turno_aecio":"2º turno com Aécio"
         },
         ordens = {
+            "sexo": ["Homens","Mulheres"],
             "idade": ["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"],
             "renda_familiar": ["Ate 1","1 a 2","2 a 5","Mais de 5"],
             "escolaridade": ["Fund. 1","Fund. 2","Medio","Superior"],
@@ -35,6 +37,7 @@ var Main = (function() {
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
+            "sexo": null,
             "idade": null,
             "renda_familiar": null,
             "escolaridade": null,
