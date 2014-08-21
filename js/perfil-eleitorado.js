@@ -182,7 +182,7 @@ var Main = (function() {
             valor = parseInt(e.yValue);
         $(".recorte_cat").text(e.xValue);
         $(".mostra_valor").text(valor);
-        $(".nome_candidato").text($(".cand-" + candidato).text());
+        $(".nome_candidato").text($(".cand-" + candidato + " a").data("label"));
 
         var valor_total = dimple.filterData(window.complete_data, "candidato", "total");
             valor_total = dimple.filterData(valor_total, "categoria", categoria);
