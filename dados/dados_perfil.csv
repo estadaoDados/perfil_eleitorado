@@ -351,56 +351,56 @@
 "indeciso","Ruim e péssimo","avaliacao_governo",31
 "branco","Ótimo e bom","avaliacao_governo",6
 "branco","Ruim e péssimo","avaliacao_governo",62
-"marina13","avaliacao_governo","Ótimo e bom","14"
-"marina13","avaliacao_governo","Regular","45"
-"marina13","avaliacao_governo","Ruim e péssimo","37"
-"marina13","condicao_municipio","Capital","36"
-"marina13","condicao_municipio","Interior","51"
-"marina13","condicao_municipio","Periferia","13"
-"marina13","escolaridade","Fund. 1","20"
-"marina13","escolaridade","Fund. 2",16
-"marina13","escolaridade","Medio","41"
-"marina13","escolaridade","Superior","23"
-"marina13","idade","16 a 24","24"
-"marina13","idade","25 a 34","25"
-"marina13","idade","35 a 44","18"
-"marina13","idade","45 a 54","14"
-"marina13","idade","55 ou mais","19"
-"marina13","regiao","Nordeste","23"
-"marina13","regiao","Norte/CO","17"
-"marina13","regiao","Sudeste","49"
-"marina13","regiao","Sul","11"
-"marina13","religiao","Catolica","57"
-"marina13","religiao","Evangelica","27"
-"marina13","religiao","Outras","16"
-"marina13","renda_familiar","1 a 2","26"
-"marina13","renda_familiar","2 a 5","42"
-"marina13","renda_familiar","Ate 1","7"
-"marina13","renda_familiar","Mais de 5","15"
-"marina10","condicao_municipio","Capital","31"
-"marina10","condicao_municipio","Interior","55"
-"marina10","condicao_municipio","Periferia","14"
-"marina10","escolaridade","Fund. 1","15"
-"marina10","escolaridade","Fund. 2",19
-"marina10","escolaridade","Medio","41"
-"marina10","escolaridade","Superior","25"
-"marina10","idade","16 a 24","22"
-"marina10","idade","25 a 34","28"
-"marina10","idade","35 a 44","21"
-"marina10","idade","45 a 54","17"
-"marina10","idade","55 ou mais","12"
-"marina10","regiao","Nordeste","21"
-"marina10","regiao","Norte/CO","10"
-"marina10","regiao","Sudeste","55"
-"marina10","regiao","Sul","13"
-"marina10","religiao","Catolica","51"
-"marina10","religiao","Evangelica","26"
-"marina10","religiao","Outras","23"
-"marina10","renda_familiar","1 a 2","27"
-"marina10","renda_familiar","2 a 5","38"
-"marina10","renda_familiar","Ate 1","11"
-"marina10","renda_familiar","Mais de 5","18"
-"marina13","sexo","Homens","41"
-"marina13","sexo","Mulheres","59"
-"marina10","sexo","Homens","45"
-"marina10","sexo","Mulheres","55"
+"marina13","Ótimo e bom","avaliacao_governo",14
+"marina13","Regular","avaliacao_governo",45
+"marina13","Ruim e péssimo","avaliacao_governo",37
+"marina13","Capital","condicao_municipio",36
+"marina13","Interior","condicao_municipio",51
+"marina13","Periferia","condicao_municipio",13
+"marina13","Fund. 1","escolaridade",20
+"marina13","Fund. 2","escolaridade",16
+"marina13","Medio","escolaridade",41
+"marina13","Superior","escolaridade",23
+"marina13","16 a 24","idade",24
+"marina13","25 a 34","idade",25
+"marina13","35 a 44","idade",18
+"marina13","45 a 54","idade",14
+"marina13","55 ou mais","idade",19
+"marina13","Nordeste","regiao",23
+"marina13","Norte/CO","regiao",17
+"marina13","Sudeste","regiao",49
+"marina13","Sul","regiao",11
+"marina13","Catolica","religiao",57
+"marina13","Evangelica","religiao",27
+"marina13","Outras","religiao",16
+"marina13","1 a 2","renda_familiar",26
+"marina13","2 a 5","renda_familiar",42
+"marina13","Ate 1","renda_familiar",7
+"marina13","Mais de 5","renda_familiar",15
+"marina10","Capital","condicao_municipio",31
+"marina10","Interior","condicao_municipio",55
+"marina10","Periferia","condicao_municipio",14
+"marina10","Fund. 1","escolaridade",15
+"marina10","Fund. 2","escolaridade",19
+"marina10","Medio","escolaridade",41
+"marina10","Superior","escolaridade",25
+"marina10","16 a 24","idade",22
+"marina10","25 a 34","idade",28
+"marina10","35 a 44","idade",21
+"marina10","45 a 54","idade",17
+"marina10","55 ou mais","idade",12
+"marina10","Nordeste","regiao",21
+"marina10","Norte/CO","regiao",10
+"marina10","Sudeste","regiao",55
+"marina10","Sul","regiao",13
+"marina10","Catolica","religiao",51
+"marina10","Evangelica","religiao",26
+"marina10","Outras","religiao",23
+"marina10","1 a 2","renda_familiar",27
+"marina10","2 a 5","renda_familiar",38
+"marina10","Ate 1","renda_familiar",11
+"marina10","Mais de 5","renda_familiar",18
+"marina13","Homens","sexo",41
+"marina13","Mulheres","sexo",59
+"marina10","Homens","sexo",45
+"marina10","Mulheres","sexo",55
