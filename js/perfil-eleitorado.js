@@ -2,7 +2,7 @@ var Main = (function() {
 
     var candidato = null,
         defaulCand = 'dilma',
-        categoria = ["idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
+        categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
             "idade":"Idade",
             "renda_familiar":"Renda familiar (SM)",
