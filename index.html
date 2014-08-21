@@ -40,7 +40,8 @@
  </head>
 <body>
   <!--<iframe src="/base/menu_topo.html" width="100%" seamless scrolling="no" frameborder="0" height="51px" class="navbar-fixed-top" id="edados_menu"></iframe>-->
-    <nav class="navbar navbar-fixed-top" id="edados_menu">
+  <nav>
+    <div class="navbar navbar-fixed-top" id="edados_menu">
       <div class="container-fluid" id="navbar-edados">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-edados">
@@ -102,50 +103,56 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav> <!-- Fim da barra de navegação do Estadão Dados -->
- 
-  <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="menu_candidatos">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".candidatos">
-          <span> Candidatos </span>
-          <span class="sr-only">Toggle navigation</span>
-          <!--<span class="icon-bar"></span>-->
-          <!--<span class="icon-bar"></span>-->
-          <!--<span class="icon-bar"></span>-->
-        </button>
+    </div> <!-- Fim da barra de navegação do Estadão Dados -->
+    <div class="container" id="menu_aplicacao">
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="menu_candidatos">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".candidatos">
+              <span> Candidatos </span>
+              <span class="sr-only">Toggle navigation</span>
+              <!--<span class="icon-bar"></span>-->
+              <!--<span class="icon-bar"></span>-->
+              <!--<span class="icon-bar"></span>-->
+            </button>
+          </div>
+          <div class="navbar-collapse collapse candidatos">
+            <ul class="nav nav-pills navbar-nav">
+              <li class="cand-dilma"><a class="link-cand" href="#candidato/dilma">Dilma</a></li>
+              <li class="cand-aecio"><a class="link-cand" href="#candidato/aecio">Aécio</a></li>
+              <li class="cand-campos"><a class="link-cand" href="#candidato/campos">Eduardo Campos</a></li>
+              <div class="btn-group">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Marina <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu navbar-inverse" role="menu">
+                  <li class="cand-marina10"><a class="link-cand" href="#candidato/marina10">2010</a></li>
+                  <li class="cand-marina13"><a class="link-cand" href="#candidato/marina13">2013</a></li>
+                </ul>
+              </div>
+              <li class="cand-pastor"><a class="link-cand" href="#candidato/pastor">Pr. Everaldo</a></li>
+              <li class="cand-outros"><a class="link-cand" href="#candidato/outros">Outros</a></li>
+              <li class="cand-branco"><a class="link-cand" href="#candidato/branco">Brancos e Nulos</a></li>
+              <li class="cand-indeciso"><a class="link-cand" href="#candidato/indeciso">Indecisos</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="navbar-collapse collapse candidatos">
-        <ul class="nav nav-pills navbar-nav">
-          <li class="cand-dilma"><a class="link-cand" href="#candidato/dilma">Dilma</a></li>
-          <li class="cand-aecio"><a class="link-cand" href="#candidato/aecio">Aécio</a></li>
-          <li class="cand-campos"><a class="link-cand" href="#candidato/campos">Eduardo Campos</a></li>
-          <li class="cand-marina13"><a class="link-cand" href="#candidato/marina13">Marina (2013)</a></li>
-          <li class="cand-marina10"><a class="link-cand" href="#candidato/marina10">Marina (2010)</a></li>
-          <li class="cand-pastor"><a class="link-cand" href="#candidato/pastor">Pr. Everaldo</a></li>
-          <li class="cand-outros"><a class="link-cand" href="#candidato/outros">Outros</a></li>
-          <li class="cand-branco"><a class="link-cand" href="#candidato/branco">Brancos e Nulos</a></li>
-          <li class="cand-indeciso"><a class="link-cand" href="#candidato/indeciso">Indecisos</a></li>
-        </ul>
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="dados_candidatos">
+        <div class="ajuste-valores col-xs-12">&nbsp;</div>
+        <div class="navbar-inner navbar-content-center">
+          <div class="col-xs-12 col-sm-4 text-center"><p>Recorte: <span class="recorte_cat">-</span></p></div>
+          <div class="col-xs-6 col-sm-4 text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></div>
+          <div class="col-xs-6 col-sm-4 text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média</p></div>
+          <!--<ul class="nav nav-pills nav-justified">-->
+            <!--<li class="text-center"><p>Recorte: <span class="recorte_cat">-</span></p></li>-->
+            <!--<li class="text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></li>-->
+            <!--<li class="text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média (<span class="valor_media">-</span>%)</p></li>-->
+          <!--</ul>-->
+        </div>
       </div>
     </div>
-  </div>
-
-  <aside class="container" id="dados_candidatos">
-    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="ajuste-valores col-xs-12">&nbsp;</div>
-      <div class="navbar-inner navbar-content-center">
-        <div class="col-xs-12 col-sm-4 text-center"><p>Recorte: <span class="recorte_cat">-</span></p></div>
-        <div class="col-xs-6 col-sm-4 text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></div>
-        <div class="col-xs-6 col-sm-4 text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média</p></div>
-        <!--<ul class="nav nav-pills nav-justified">-->
-          <!--<li class="text-center"><p>Recorte: <span class="recorte_cat">-</span></p></li>-->
-          <!--<li class="text-center"><p><span class="nome_candidato"></span>: <span class="mostra_valor">-</span>%</p></li>-->
-          <!--<li class="text-center"><p><img class="arrow" src="imgs/arrow.svg"/> da média (<span class="valor_media">-</span>%)</p></li>-->
-        <!--</ul>-->
-      </div>
-    </div>
-  </aside>
+  </nav>
 
  <!-- Conteúdo Principal -->
   <section id="main_content" class="container-fluid">

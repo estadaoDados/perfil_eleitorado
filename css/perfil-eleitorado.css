@@ -138,40 +138,59 @@ div.div-botao-pergunta .input-group {
   color: #fff;
 }
 
-div.navbar.navbar-fixed-top {
+div#menu_candidatos.navbar.navbar-fixed-top {
   top: 47px;
 }
 
-#menu_candidatos.navbar,
-aside .navbar {
+div#menu_candidatos.navbar,
+div#dados_candidatos.navbar {
   margin: 0;
   padding: 0;
   min-height: 23px;
 }
 
-aside .navbar-fixed-top {
+div#menu_candidatos.navbar-fixed-top {
   z-index: 1000;
 }
 
-#menu_candidatos p,
-aside p {
+div#dados_candidatos.navbar-fixed-top {
+  z-index: 900;
+}
+
+div#menu_candidatos p,
+div#dados_candidatos p {
   margin-bottom: 0;
 }
 
-#menu_candidatos a {
+div#menu_candidatos a {
   padding: 5px;
-  /*font-weight: bold;*/
 }
 
-aside#dados_candidatos div.navbar.navbar-fixed-top {
+div#dados_candidatos.navbar.navbar-fixed-top {
   top:76px;
 }
 
-#menu_candidatos, #dados_candidatos {
+div#menu_candidatos *,
+div#dados_candidatos * {
   font-family: Arial;
   color: #fff;
   /*font-weight: bold;*/
   font-size: 14px;
+}
+
+#menu_aplicacao a {
+  text-decoration: none;
+}
+
+#menu_aplicacao .dropdown-menu > li > a:hover,
+#menu_aplicacao .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  background-color: #6c6c6c;
+  background-image: none;
+}
+
+#menu_aplicacao .btn-group {
+  line-height: 30px;
 }
 
 #main_content {
