@@ -12,7 +12,7 @@
 "total","Fund. 2","escolaridade",22
 "total","Medio","escolaridade",41
 "total","Superior","escolaridade",17
-"total","Sudeste","regiao",27
+"total","Nordeste","regiao",27
 "total","Norte/CO","regiao",14
 "total","Sudeste","regiao",44
 "total","Sul","regiao",15
@@ -53,7 +53,7 @@
 "dilma","Fund. 2","escolaridade",26
 "dilma","Medio","escolaridade",38
 "dilma","Superior","escolaridade",11
-"dilma","Sudeste","regiao",37
+"dilma","Nordeste","regiao",37
 "dilma","Norte/CO","regiao",15
 "dilma","Sudeste","regiao",35
 "dilma","Sul","regiao",13
@@ -94,7 +94,7 @@
 "aecio","Fund. 2","escolaridade",16
 "aecio","Medio","escolaridade",42
 "aecio","Superior","escolaridade",26
-"aecio","Sudeste","regiao",12
+"aecio","Nordeste","regiao",12
 "aecio","Norte/CO","regiao",16
 "aecio","Sudeste","regiao",54
 "aecio","Sul","regiao",18
@@ -135,7 +135,7 @@
 "campos","Fund. 2","escolaridade",18
 "campos","Medio","escolaridade",44
 "campos","Superior","escolaridade",25
-"campos","Sudeste","regiao",37
+"campos","Nordeste","regiao",37
 "campos","Norte/CO","regiao",15
 "campos","Sudeste","regiao",32
 "campos","Sul","regiao",15
@@ -176,7 +176,7 @@
 "pastor","Fund. 2","escolaridade",28
 "pastor","Medio","escolaridade",41
 "pastor","Superior","escolaridade",10
-"pastor","Sudeste","regiao",15
+"pastor","Nordeste","regiao",15
 "pastor","Norte/CO","regiao",15
 "pastor","Sudeste","regiao",51
 "pastor","Sul","regiao",20
@@ -217,7 +217,7 @@
 "outros","Fund. 2","escolaridade",30
 "outros","Medio","escolaridade",37
 "outros","Superior","escolaridade",17
-"outros","Sudeste","regiao",25
+"outros","Nordeste","regiao",25
 "outros","Norte/CO","regiao",13
 "outros","Sudeste","regiao",45
 "outros","Sul","regiao",17
@@ -258,7 +258,7 @@
 "indeciso","Fund. 2","escolaridade",24
 "indeciso","Medio","escolaridade",37
 "indeciso","Superior","escolaridade",14
-"indeciso","Sudeste","regiao",24
+"indeciso","Nordeste","regiao",24
 "indeciso","Norte/CO","regiao",15
 "indeciso","Sudeste","regiao",45
 "indeciso","Sul","regiao",16
@@ -299,7 +299,7 @@
 "branco","Fund. 2","escolaridade",19
 "branco","Medio","escolaridade",47
 "branco","Superior","escolaridade",19
-"branco","Sudeste","regiao",21
+"branco","Nordeste","regiao",21
 "branco","Norte/CO","regiao",9
 "branco","Sudeste","regiao",56
 "branco","Sul","regiao",14
