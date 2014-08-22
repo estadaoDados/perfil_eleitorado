@@ -80,6 +80,7 @@ var Main = (function() {
             for (var i=0; i<a.length; i++){
                 a[i].onclick=function(e){
                     e.preventDefault();
+                    $("#menu_candidatos .navbar-collapse").collapse('hide');
                     var candidato = this.href.split("#candidato/").pop();
                     $("[class*=cand-].active").removeClass("active");
                     $(".cand-"+candidato).addClass("active");
