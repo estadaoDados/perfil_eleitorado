@@ -223,6 +223,10 @@ var Main = (function() {
     }
 
     function _atualiza_graficos() {
+        $(".recorte_cat").text('-');
+        $(".mostra_valor").text('-');
+        $(".nome_candidato").text('-');
+
         var data_cand = dimple.filterData(window.complete_data, "candidato", candidato);
 
         for (var i=0 ; i < categoria.length ; i++ ) {
