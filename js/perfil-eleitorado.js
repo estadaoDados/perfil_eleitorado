@@ -170,12 +170,14 @@ var Main = (function() {
         serie.getTooltipText = function(e) {
             return ["Média: " + parseInt(e.yValue) + "%"];
         }
-        return serie
+        return serie;
     }
 
     function altera_tooltip(serie, categoria) {
       // Override the standard tooltip behaviour
       serie.addEventHandler("mouseover", function (e){
+
+        $("#dados_candidatos p").addClass("blinkText");
 
         // Draw the text information in the top left corner
         var recorte = e.xValue,
@@ -198,6 +200,9 @@ var Main = (function() {
 
         $(".valor_media").text(valor_total[0]["valor"])
 
+      });
+      serie.addEventHandler("mouseout", function (e){
+          $(".blinkText").removeClass("blinkText");
       });
       return serie;
     }
