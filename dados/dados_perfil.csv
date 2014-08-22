@@ -10,7 +10,7 @@
 "total","Ate 1","renda_familiar",14
 "total","Fund. 1","escolaridade",20
 "total","Fund. 2","escolaridade",22
-"total","Medio","escolaridade",41
+"total","Médio","escolaridade",41
 "total","Superior","escolaridade",17
 "total","Nordeste","regiao",27
 "total","Norte/CO","regiao",14
@@ -51,7 +51,7 @@
 "dilma","Ate 1","renda_familiar",20
 "dilma","Fund. 1","escolaridade",25
 "dilma","Fund. 2","escolaridade",26
-"dilma","Medio","escolaridade",38
+"dilma","Médio","escolaridade",38
 "dilma","Superior","escolaridade",11
 "dilma","Nordeste","regiao",37
 "dilma","Norte/CO","regiao",15
@@ -92,7 +92,7 @@
 "aecio","Ate 1","renda_familiar",8
 "aecio","Fund. 1","escolaridade",16
 "aecio","Fund. 2","escolaridade",16
-"aecio","Medio","escolaridade",42
+"aecio","Médio","escolaridade",42
 "aecio","Superior","escolaridade",26
 "aecio","Nordeste","regiao",12
 "aecio","Norte/CO","regiao",16
@@ -133,7 +133,7 @@
 "campos","Ate 1","renda_familiar",12
 "campos","Fund. 1","escolaridade",13
 "campos","Fund. 2","escolaridade",18
-"campos","Medio","escolaridade",44
+"campos","Médio","escolaridade",44
 "campos","Superior","escolaridade",25
 "campos","Nordeste","regiao",37
 "campos","Norte/CO","regiao",15
@@ -174,7 +174,7 @@
 "pastor","Ate 1","renda_familiar",18
 "pastor","Fund. 1","escolaridade",21
 "pastor","Fund. 2","escolaridade",28
-"pastor","Medio","escolaridade",41
+"pastor","Médio","escolaridade",41
 "pastor","Superior","escolaridade",10
 "pastor","Nordeste","regiao",15
 "pastor","Norte/CO","regiao",15
@@ -215,7 +215,7 @@
 "outros","Ate 1","renda_familiar",19
 "outros","Fund. 1","escolaridade",16
 "outros","Fund. 2","escolaridade",30
-"outros","Medio","escolaridade",37
+"outros","Médio","escolaridade",37
 "outros","Superior","escolaridade",17
 "outros","Nordeste","regiao",25
 "outros","Norte/CO","regiao",13
@@ -256,7 +256,7 @@
 "indeciso","Ate 1","renda_familiar",12
 "indeciso","Fund. 1","escolaridade",26
 "indeciso","Fund. 2","escolaridade",24
-"indeciso","Medio","escolaridade",37
+"indeciso","Médio","escolaridade",37
 "indeciso","Superior","escolaridade",14
 "indeciso","Nordeste","regiao",24
 "indeciso","Norte/CO","regiao",15
@@ -297,7 +297,7 @@
 "branco","Ate 1","renda_familiar",12
 "branco","Fund. 1","escolaridade",15
 "branco","Fund. 2","escolaridade",19
-"branco","Medio","escolaridade",47
+"branco","Médio","escolaridade",47
 "branco","Superior","escolaridade",19
 "branco","Nordeste","regiao",21
 "branco","Norte/CO","regiao",9
@@ -359,7 +359,7 @@
 "marina13","Periferia","condicao_municipio",13
 "marina13","Fund. 1","escolaridade",20
 "marina13","Fund. 2","escolaridade",16
-"marina13","Medio","escolaridade",41
+"marina13","Médio","escolaridade",41
 "marina13","Superior","escolaridade",23
 "marina13","16 a 24","idade",24
 "marina13","25 a 34","idade",25
@@ -382,7 +382,7 @@
 "marina10","Periferia","condicao_municipio",14
 "marina10","Fund. 1","escolaridade",15
 "marina10","Fund. 2","escolaridade",19
-"marina10","Medio","escolaridade",41
+"marina10","Médio","escolaridade",41
 "marina10","Superior","escolaridade",25
 "marina10","16 a 24","idade",22
 "marina10","25 a 34","idade",28

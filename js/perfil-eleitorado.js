@@ -22,7 +22,7 @@ var Main = (function() {
             "sexo": ["Homens","Mulheres"],
             "idade": ["16 a 24","25 a 34","35 a 44","45 a 54","55 ou mais"],
             "renda_familiar": ["Ate 1","1 a 2","2 a 5","Mais de 5"],
-            "escolaridade": ["Fund. 1","Fund. 2","Medio","Superior"],
+            "escolaridade": ["Fund. 1","Fund. 2","Médio","Superior"],
             "regiao": ["Sudeste","Nordeste","Sul","Norte/CO"],
             "condicao_municipio": ["Capital","Periferia","Interior"],
             "religiao": ["Catolica","Evangelica","Outras"],
