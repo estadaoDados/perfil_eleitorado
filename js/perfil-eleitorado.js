@@ -1,7 +1,7 @@
 var Main = (function() {
 
     var candidato = null,
-        defaulCand = 'dilma',
+        defaulCand = 'dilma_ago',
         categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
         converte_cat = {
             "sexo":"Sexo",
@@ -33,7 +33,7 @@ var Main = (function() {
             "desejo_mudanca": ["Quer mudança","Quer continuidade"],
             "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"]
         }
-        possibilidades = ["campos","dilma", "aecio","pastor","outros","branco","indeciso","marina13","marina10"],
+        possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago"],
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
@@ -95,7 +95,7 @@ var Main = (function() {
 
             if(window.location.hash) {
                 var cand = window.location.hash.split("#candidato/").pop()
-                candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma";
+                candidato = possibilidades.indexOf(cand) > -1 ? cand : "dilma_ago";
             } else {
                 candidato = defaulCand;
             }
@@ -209,15 +209,25 @@ var Main = (function() {
     }
 
     function _configuraCores(grafico) {
-        grafico.assignColor("aecio","#34495e");
-        grafico.assignColor("dilma","#c0392b");
+        grafico.assignColor("aecio_jul","#34495e");
+        grafico.assignColor("dilma_jul","#c0392b");
         grafico.assignColor("campos","#e67e22");
         grafico.assignColor("marina13","#e67e22");
         grafico.assignColor("marina10","#e67e22");
-        grafico.assignColor("pastor","#28b463");
-        grafico.assignColor("outros","#8e44ad");
-        grafico.assignColor("indeciso","#95a5a6");
-        grafico.assignColor("branco","#7f8c8d");
+        grafico.assignColor("pastor_jul","#28b463");
+        grafico.assignColor("outros_jul","#8e44ad");
+        grafico.assignColor("indeciso_jul","#95a5a6");
+        grafico.assignColor("branco_jul","#7f8c8d");
+        
+        grafico.assignColor("aecio_ago","#34495e");
+        grafico.assignColor("dilma_ago","#c0392b");
+        grafico.assignColor("campos","#e67e22");
+        grafico.assignColor("marina_ago","#e67e22");
+        grafico.assignColor("pastor_ago","#28b463");
+        grafico.assignColor("outros_ago","#8e44ad");
+        grafico.assignColor("indeciso_ago","#95a5a6");
+        grafico.assignColor("branco_ago","#7f8c8d");
+
         grafico.assignColor("total","#181C19");
         return grafico;
     }
