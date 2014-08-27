@@ -2,7 +2,7 @@ var Main = (function() {
 
     var candidato = null,
         defaulCand = 'dilma_ago',
-        categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio"],
+        categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","2turno_marina"],
         converte_cat = {
             "sexo":"Sexo",
             "idade":"Idade",
@@ -16,7 +16,8 @@ var Main = (function() {
             "vida_hoje":"Satisfação com a vida",
             "avaliacao_governo":"Avaliação do Governo",
             "desejo_mudanca":"Desejo de mudança",
-            "2turno_aecio":"2º turno com Aécio"
+            "2turno_aecio":"2º turno com Aécio",
+            "2turno_marina":"2º turno com Marina"
         },
         ordens = {
             "sexo": ["Homens","Mulheres"],
@@ -31,7 +32,8 @@ var Main = (function() {
             "vida_hoje": ["Satisfeito","Insatisfeito"],
             "avaliacao_governo": ["Ótimo e bom","Regular","Ruim e péssimo"],
             "desejo_mudanca": ["Quer mudança","Quer continuidade"],
-            "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"]
+            "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"],
+            "2turno_marina":["Marina Silva","Dilma Rousseff","Branco e Nulo"]
         }
         possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago"],
         complete_data = null,
@@ -49,7 +51,8 @@ var Main = (function() {
             "vida_hoje": null,
             "avaliacao_governo": null,
             "desejo_mudanca": null,
-            "2turno_aecio": null
+            "2turno_aecio": null,
+            "2turno_marina": null,
         },
         lista_charts = {};
 
