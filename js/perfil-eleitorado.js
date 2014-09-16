@@ -1,7 +1,7 @@
 var Main = (function() {
 
     var candidato = null,
-        defaulCand = 'dilma_set',
+        defaulCand = 'dilma_set2',
         categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","2turno_marina"],
         converte_cat = {
             "sexo":"Sexo",
@@ -35,7 +35,7 @@ var Main = (function() {
             "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"],
             "2turno_marina":["Marina Silva","Dilma Rousseff","Branco e Nulo"]
         }
-        possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago","dilma_set","aecio_set","pastor_set","outros_set","branco_set","indeciso_set","marina_set"],
+        possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago","dilma_set","aecio_set","pastor_set","outros_set","branco_set","indeciso_set","marina_set","dilma_set2","aecio_set2","pastor_set2","outros_set2","branco_set2","indeciso_set2","marina_set2"],
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
