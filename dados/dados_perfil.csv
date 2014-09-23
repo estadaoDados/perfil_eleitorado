@@ -90,6 +90,99 @@
 "aecio_jul","Regular","avaliacao_governo",40
 "aecio_jul","Ótimo e bom","avaliacao_governo",8
 "aecio_jul","Ruim e péssimo","avaliacao_governo",53
+"aecio_set","16 a 24","idade",19
+"aecio_set","25 a 34","idade",23
+"aecio_set","35 a 44","idade",21
+"aecio_set","45 a 54","idade",19
+"aecio_set","55 ou mais","idade",18
+"aecio_set","Mais de 5","renda_familiar",27
+"aecio_set","2 a 5","renda_familiar",38
+"aecio_set","1 a 2","renda_familiar",26
+"aecio_set","Ate 1","renda_familiar",8
+"aecio_set","Fund. 1","escolaridade",11
+"aecio_set","Fund. 2","escolaridade",19
+"aecio_set","Medio","escolaridade",39
+"aecio_set","Superior","escolaridade",30
+"aecio_set","Nordeste","regiao",12
+"aecio_set","Norte/CO","regiao",16
+"aecio_set","Sudeste","regiao",55
+"aecio_set","Sul","regiao",17
+"aecio_set","Capital","condicao_municipio",26
+"aecio_set","Interior","condicao_municipio",62
+"aecio_set","Periferia","condicao_municipio",13
+"aecio_set","Catolica","religiao",71
+"aecio_set","Evangelica","religiao",13
+"aecio_set","Outras","religiao",16
+"aecio_set","Branca","cor",54
+"aecio_set","Preta ou parda","cor",43
+"aecio_set","Outras","cor",3
+"aecio_set","Tem muito interesse","interesse",24
+"aecio_set","Tem médio interesse","interesse",36
+"aecio_set","Não tem interesse","interesse",41
+"aecio_set","Satisfeito","vida_hoje",77
+"aecio_set","Insatisfeito","vida_hoje",22
+"aecio_set","Quer mudança","desejo_mudanca",81
+"aecio_set","Quer continuidade","desejo_mudanca",17
+"aecio_set","Aécio Neves","2turno_aecio",95
+"aecio_set","Branco e Nulo","2turno_aecio",0
+"aecio_set","Dilma Rousseff","2turno_aecio",3
+"aecio_set","Mulheres","sexo",48
+"aecio_set","Homens","sexo",52
+"aecio_set","Branco e Nulo","2turno_marina",12
+"aecio_set","Dilma Rousseff","2turno_marina",17
+"aecio_set","Marina Silva","2turno_marina",66
+"aecio_set","idade_media","idade_media","39,1"
+"aecio_set","renda_media","renda_media","2444,4"
+"aecio_set","anos_estudo","anos_estudo","12,4"
+"aecio_set","Regular","avaliacao_governo",46
+"aecio_set","Ótimo e bom","avaliacao_governo",8
+"aecio_set","Ruim e péssimo","avaliacao_governo",46
+"aecio_set2","16 a 24","idade",20
+"aecio_set2","25 a 34","idade",27
+"aecio_set2","35 a 44","idade",19
+"aecio_set2","45 a 54","idade",16
+"aecio_set2","55 ou mais","idade",18
+"aecio_set2","Mais de 5","renda_familiar",27
+"aecio_set2","2 a 5","renda_familiar",40
+"aecio_set2","1 a 2","renda_familiar",25
+"aecio_set2","Ate 1","renda_familiar",8
+"aecio_set2","Fund. 1","escolaridade",13
+"aecio_set2","Fund. 2","escolaridade",18
+"aecio_set2","Medio","escolaridade",43
+"aecio_set2","Superior","escolaridade",26
+"aecio_set2","Nordeste","regiao",13
+"aecio_set2","Norte/CO","regiao",15
+"aecio_set2","Sudeste","regiao",53
+"aecio_set2","Sul","regiao",19
+"aecio_set2","Capital","condicao_municipio",25
+"aecio_set2","Interior","condicao_municipio",64
+"aecio_set2","Periferia","condicao_municipio",11
+"aecio_set2","Catolica","religiao",68
+"aecio_set2","Evangelica","religiao",18
+"aecio_set2","Outras","religiao",14
+"aecio_set2","Branca","cor",56
+"aecio_set2","Preta ou parda","cor",43
+"aecio_set2","Outras","cor",1
+"aecio_set2","Tem muito interesse","interesse",23
+"aecio_set2","Tem médio interesse","interesse",36
+"aecio_set2","Não tem interesse","interesse",40
+"aecio_set2","Satisfeito","vida_hoje",79
+"aecio_set2","Insatisfeito","vida_hoje",20
+"aecio_set2","Quer mudança","desejo_mudanca",88
+"aecio_set2","Quer continuidade","desejo_mudanca",11
+"aecio_set2","Aécio Neves","2turno_aecio",97
+"aecio_set2","Dilma Rousseff","2turno_aecio",2
+"aecio_set2","Mulheres","sexo",50
+"aecio_set2","Homens","sexo",50
+"aecio_set2","Branco e Nulo","2turno_marina",18
+"aecio_set2","Dilma Rousseff","2turno_marina",16
+"aecio_set2","Marina Silva","2turno_marina",59
+"aecio_set2","idade_media","idade_media","38,2"
+"aecio_set2","renda_media","renda_media","2484,2"
+"aecio_set2","anos_estudo","anos_estudo","12,3"
+"aecio_set2","Regular","avaliacao_governo",37
+"aecio_set2","Ótimo e bom","avaliacao_governo",12
+"aecio_set2","Ruim e péssimo","avaliacao_governo",51
 "branco_ago","16 a 24","idade",23
 "branco_ago","25 a 34","idade",20
 "branco_ago","35 a 44","idade",18
@@ -181,6 +274,100 @@
 "branco_jul","Regular","avaliacao_governo",31
 "branco_jul","Ótimo e bom","avaliacao_governo",6
 "branco_jul","Ruim e péssimo","avaliacao_governo",62
+"branco_set","16 a 24","idade",19
+"branco_set","25 a 34","idade",27
+"branco_set","35 a 44","idade",24
+"branco_set","45 a 54","idade",19
+"branco_set","55 ou mais","idade",11
+"branco_set","Mais de 5","renda_familiar",15
+"branco_set","2 a 5","renda_familiar",35
+"branco_set","1 a 2","renda_familiar",38
+"branco_set","Ate 1","renda_familiar",13
+"branco_set","Fund. 1","escolaridade",17
+"branco_set","Fund. 2","escolaridade",20
+"branco_set","Medio","escolaridade",46
+"branco_set","Superior","escolaridade",16
+"branco_set","Nordeste","regiao",24
+"branco_set","Norte/CO","regiao",12
+"branco_set","Sudeste","regiao",57
+"branco_set","Sul","regiao",7
+"branco_set","Capital","condicao_municipio",32
+"branco_set","Interior","condicao_municipio",52
+"branco_set","Periferia","condicao_municipio",16
+"branco_set","Catolica","religiao",58
+"branco_set","Evangelica","religiao",17
+"branco_set","Outras","religiao",25
+"branco_set","Branca","cor",33
+"branco_set","Preta ou parda","cor",65
+"branco_set","Outras","cor",2
+"branco_set","Tem muito interesse","interesse",5
+"branco_set","Tem médio interesse","interesse",12
+"branco_set","Não tem interesse","interesse",82
+"branco_set","Satisfeito","vida_hoje",69
+"branco_set","Insatisfeito","vida_hoje",31
+"branco_set","Quer mudança","desejo_mudanca",82
+"branco_set","Quer continuidade","desejo_mudanca",14
+"branco_set","Aécio Neves","2turno_aecio",7
+"branco_set","Branco e Nulo","2turno_aecio",79
+"branco_set","Dilma Rousseff","2turno_aecio",7
+"branco_set","Mulheres","sexo",52
+"branco_set","Homens","sexo",48
+"branco_set","Branco e Nulo","2turno_marina",79
+"branco_set","Dilma Rousseff","2turno_marina",5
+"branco_set","Marina Silva","2turno_marina",11
+"branco_set","idade_media","idade_media","37,2"
+"branco_set","renda_media","renda_media","1996,7"
+"branco_set","anos_estudo","anos_estudo","11,3"
+"branco_set","Regular","avaliacao_governo",39
+"branco_set","Ótimo e bom","avaliacao_governo",12
+"branco_set","Ruim e péssimo","avaliacao_governo",47
+"branco_set2","16 a 24","idade",19
+"branco_set2","25 a 34","idade",25
+"branco_set2","35 a 44","idade",20
+"branco_set2","45 a 54","idade",21
+"branco_set2","55 ou mais","idade",14
+"branco_set2","Mais de 5","renda_familiar",14
+"branco_set2","2 a 5","renda_familiar",42
+"branco_set2","1 a 2","renda_familiar",31
+"branco_set2","Ate 1","renda_familiar",14
+"branco_set2","Fund. 1","escolaridade",15
+"branco_set2","Fund. 2","escolaridade",22
+"branco_set2","Medio","escolaridade",44
+"branco_set2","Superior","escolaridade",19
+"branco_set2","Nordeste","regiao",19
+"branco_set2","Norte/CO","regiao",15
+"branco_set2","Sudeste","regiao",52
+"branco_set2","Sul","regiao",13
+"branco_set2","Capital","condicao_municipio",33
+"branco_set2","Interior","condicao_municipio",52
+"branco_set2","Periferia","condicao_municipio",15
+"branco_set2","Catolica","religiao",53
+"branco_set2","Evangelica","religiao",21
+"branco_set2","Outras","religiao",25
+"branco_set2","Branca","cor",40
+"branco_set2","Preta ou parda","cor",58
+"branco_set2","Outras","cor",2
+"branco_set2","Tem muito interesse","interesse",3
+"branco_set2","Tem médio interesse","interesse",8
+"branco_set2","Não tem interesse","interesse",90
+"branco_set2","Satisfeito","vida_hoje",70
+"branco_set2","Insatisfeito","vida_hoje",29
+"branco_set2","Quer mudança","desejo_mudanca",81
+"branco_set2","Quer continuidade","desejo_mudanca",7
+"branco_set2","Aécio Neves","2turno_aecio",7
+"branco_set2","Branco e Nulo","2turno_aecio",83
+"branco_set2","Dilma Rousseff","2turno_aecio",5
+"branco_set2","Mulheres","sexo",52
+"branco_set2","Homens","sexo",48
+"branco_set2","Branco e Nulo","2turno_marina",84
+"branco_set2","Dilma Rousseff","2turno_marina",4
+"branco_set2","Marina Silva","2turno_marina",8
+"branco_set2","idade_media","idade_media","37,9"
+"branco_set2","renda_media","renda_media","2058,4"
+"branco_set2","anos_estudo","anos_estudo","11,7"
+"branco_set2","Regular","avaliacao_governo",29
+"branco_set2","Ótimo e bom","avaliacao_governo",7
+"branco_set2","Ruim e péssimo","avaliacao_governo",58
 "campos","16 a 24","idade",24
 "campos","25 a 34","idade",31
 "campos","35 a 44","idade",16
@@ -314,6 +501,100 @@
 "dilma_jul","Regular","avaliacao_governo",29
 "dilma_jul","Ótimo e bom","avaliacao_governo",66
 "dilma_jul","Ruim e péssimo","avaliacao_governo",4
+"dilma_set","16 a 24","idade",17
+"dilma_set","25 a 34","idade",23
+"dilma_set","35 a 44","idade",21
+"dilma_set","45 a 54","idade",19
+"dilma_set","55 ou mais","idade",19
+"dilma_set","Mais de 5","renda_familiar",13
+"dilma_set","2 a 5","renda_familiar",34
+"dilma_set","1 a 2","renda_familiar",34
+"dilma_set","Ate 1","renda_familiar",19
+"dilma_set","Fund. 1","escolaridade",25
+"dilma_set","Fund. 2","escolaridade",26
+"dilma_set","Medio","escolaridade",37
+"dilma_set","Superior","escolaridade",12
+"dilma_set","Nordeste","regiao",34
+"dilma_set","Norte/CO","regiao",15
+"dilma_set","Sudeste","regiao",37
+"dilma_set","Sul","regiao",13
+"dilma_set","Capital","condicao_municipio",23
+"dilma_set","Interior","condicao_municipio",64
+"dilma_set","Periferia","condicao_municipio",14
+"dilma_set","Catolica","religiao",70
+"dilma_set","Evangelica","religiao",18
+"dilma_set","Outras","religiao",11
+"dilma_set","Branca","cor",36
+"dilma_set","Preta ou parda","cor",61
+"dilma_set","Outras","cor",3
+"dilma_set","Tem muito interesse","interesse",23
+"dilma_set","Tem médio interesse","interesse",31
+"dilma_set","Não tem interesse","interesse",45
+"dilma_set","Satisfeito","vida_hoje",83
+"dilma_set","Insatisfeito","vida_hoje",17
+"dilma_set","Quer mudança","desejo_mudanca",50
+"dilma_set","Quer continuidade","desejo_mudanca",48
+"dilma_set","Aécio Neves","2turno_aecio",2
+"dilma_set","Branco e Nulo","2turno_aecio",0
+"dilma_set","Dilma Rousseff","2turno_aecio",95
+"dilma_set","Mulheres","sexo",49
+"dilma_set","Homens","sexo",51
+"dilma_set","Branco e Nulo","2turno_marina",1
+"dilma_set","Dilma Rousseff","2turno_marina",92
+"dilma_set","Marina Silva","2turno_marina",4
+"dilma_set","idade_media","idade_media","39,3"
+"dilma_set","renda_media","renda_media",1863
+"dilma_set","anos_estudo","anos_estudo","10,4"
+"dilma_set","Regular","avaliacao_governo",24
+"dilma_set","Ótimo e bom","avaliacao_governo",74
+"dilma_set","Ruim e péssimo","avaliacao_governo",2
+"dilma_set2","16 a 24","idade",15
+"dilma_set2","25 a 34","idade",23
+"dilma_set2","35 a 44","idade",21
+"dilma_set2","45 a 54","idade",19
+"dilma_set2","55 ou mais","idade",21
+"dilma_set2","Mais de 5","renda_familiar",12
+"dilma_set2","2 a 5","renda_familiar",36
+"dilma_set2","1 a 2","renda_familiar",35
+"dilma_set2","Ate 1","renda_familiar",16
+"dilma_set2","Fund. 1","escolaridade",26
+"dilma_set2","Fund. 2","escolaridade",25
+"dilma_set2","Medio","escolaridade",38
+"dilma_set2","Superior","escolaridade",11
+"dilma_set2","Nordeste","regiao",35
+"dilma_set2","Norte/CO","regiao",14
+"dilma_set2","Sudeste","regiao",37
+"dilma_set2","Sul","regiao",14
+"dilma_set2","Capital","condicao_municipio",23
+"dilma_set2","Interior","condicao_municipio",65
+"dilma_set2","Periferia","condicao_municipio",12
+"dilma_set2","Catolica","religiao",74
+"dilma_set2","Evangelica","religiao",16
+"dilma_set2","Outras","religiao",10
+"dilma_set2","Branca","cor",34
+"dilma_set2","Preta ou parda","cor",64
+"dilma_set2","Outras","cor",2
+"dilma_set2","Tem muito interesse","interesse",19
+"dilma_set2","Tem médio interesse","interesse",40
+"dilma_set2","Não tem interesse","interesse",41
+"dilma_set2","Satisfeito","vida_hoje",85
+"dilma_set2","Insatisfeito","vida_hoje",15
+"dilma_set2","Quer mudança","desejo_mudanca",47
+"dilma_set2","Quer continuidade","desejo_mudanca",51
+"dilma_set2","Aécio Neves","2turno_aecio",2
+"dilma_set2","Branco e Nulo","2turno_aecio",0
+"dilma_set2","Dilma Rousseff","2turno_aecio",97
+"dilma_set2","Mulheres","sexo",49
+"dilma_set2","Homens","sexo",51
+"dilma_set2","Branco e Nulo","2turno_marina",0
+"dilma_set2","Dilma Rousseff","2turno_marina",96
+"dilma_set2","Marina Silva","2turno_marina",3
+"dilma_set2","idade_media","idade_media","40,1"
+"dilma_set2","renda_media","renda_media","1870,3"
+"dilma_set2","anos_estudo","anos_estudo","10,4"
+"dilma_set2","Regular","avaliacao_governo",21
+"dilma_set2","Ótimo e bom","avaliacao_governo",78
+"dilma_set2","Ruim e péssimo","avaliacao_governo",2
 "indeciso_ago","16 a 24","idade",19
 "indeciso_ago","25 a 34","idade",18
 "indeciso_ago","35 a 44","idade",20
@@ -405,6 +686,100 @@
 "indeciso_jul","Regular","avaliacao_governo",50
 "indeciso_jul","Ótimo e bom","avaliacao_governo",18
 "indeciso_jul","Ruim e péssimo","avaliacao_governo",31
+"indeciso_set","16 a 24","idade",19
+"indeciso_set","25 a 34","idade",25
+"indeciso_set","35 a 44","idade",19
+"indeciso_set","45 a 54","idade",16
+"indeciso_set","55 ou mais","idade",21
+"indeciso_set","Mais de 5","renda_familiar",14
+"indeciso_set","2 a 5","renda_familiar",34
+"indeciso_set","1 a 2","renda_familiar",37
+"indeciso_set","Ate 1","renda_familiar",16
+"indeciso_set","Fund. 1","escolaridade",21
+"indeciso_set","Fund. 2","escolaridade",21
+"indeciso_set","Medio","escolaridade",38
+"indeciso_set","Superior","escolaridade",20
+"indeciso_set","Nordeste","regiao",24
+"indeciso_set","Norte/CO","regiao",13
+"indeciso_set","Sudeste","regiao",49
+"indeciso_set","Sul","regiao",13
+"indeciso_set","Capital","condicao_municipio",24
+"indeciso_set","Interior","condicao_municipio",64
+"indeciso_set","Periferia","condicao_municipio",12
+"indeciso_set","Catolica","religiao",67
+"indeciso_set","Evangelica","religiao",19
+"indeciso_set","Outras","religiao",13
+"indeciso_set","Branca","cor",38
+"indeciso_set","Preta ou parda","cor",60
+"indeciso_set","Outras","cor",2
+"indeciso_set","Tem muito interesse","interesse",12
+"indeciso_set","Tem médio interesse","interesse",27
+"indeciso_set","Não tem interesse","interesse",58
+"indeciso_set","Satisfeito","vida_hoje",84
+"indeciso_set","Insatisfeito","vida_hoje",14
+"indeciso_set","Quer mudança","desejo_mudanca",67
+"indeciso_set","Quer continuidade","desejo_mudanca",21
+"indeciso_set","Aécio Neves","2turno_aecio",16
+"indeciso_set","Branco e Nulo","2turno_aecio",16
+"indeciso_set","Dilma Rousseff","2turno_aecio",11
+"indeciso_set","Mulheres","sexo",67
+"indeciso_set","Homens","sexo",33
+"indeciso_set","Branco e Nulo","2turno_marina",12
+"indeciso_set","Dilma Rousseff","2turno_marina",12
+"indeciso_set","Marina Silva","2turno_marina",17
+"indeciso_set","idade_media","idade_media","39,2"
+"indeciso_set","renda_media","renda_media","1928,1"
+"indeciso_set","anos_estudo","anos_estudo","11,3"
+"indeciso_set","Regular","avaliacao_governo",47
+"indeciso_set","Ótimo e bom","avaliacao_governo",24
+"indeciso_set","Ruim e péssimo","avaliacao_governo",25
+"indeciso_set2","16 a 24","idade",17
+"indeciso_set2","25 a 34","idade",24
+"indeciso_set2","35 a 44","idade",20
+"indeciso_set2","45 a 54","idade",14
+"indeciso_set2","55 ou mais","idade",24
+"indeciso_set2","Mais de 5","renda_familiar",13
+"indeciso_set2","2 a 5","renda_familiar",36
+"indeciso_set2","1 a 2","renda_familiar",31
+"indeciso_set2","Ate 1","renda_familiar",20
+"indeciso_set2","Fund. 1","escolaridade",23
+"indeciso_set2","Fund. 2","escolaridade",16
+"indeciso_set2","Medio","escolaridade",45
+"indeciso_set2","Superior","escolaridade",16
+"indeciso_set2","Nordeste","regiao",26
+"indeciso_set2","Norte/CO","regiao",8
+"indeciso_set2","Sudeste","regiao",41
+"indeciso_set2","Sul","regiao",24
+"indeciso_set2","Capital","condicao_municipio",26
+"indeciso_set2","Interior","condicao_municipio",56
+"indeciso_set2","Periferia","condicao_municipio",18
+"indeciso_set2","Catolica","religiao",62
+"indeciso_set2","Evangelica","religiao",19
+"indeciso_set2","Outras","religiao",19
+"indeciso_set2","Branca","cor",46
+"indeciso_set2","Preta ou parda","cor",51
+"indeciso_set2","Outras","cor",3
+"indeciso_set2","Tem muito interesse","interesse",9
+"indeciso_set2","Tem médio interesse","interesse",24
+"indeciso_set2","Não tem interesse","interesse",66
+"indeciso_set2","Satisfeito","vida_hoje",72
+"indeciso_set2","Insatisfeito","vida_hoje",25
+"indeciso_set2","Quer mudança","desejo_mudanca",61
+"indeciso_set2","Quer continuidade","desejo_mudanca",24
+"indeciso_set2","Aécio Neves","2turno_aecio",7
+"indeciso_set2","Branco e Nulo","2turno_aecio",13
+"indeciso_set2","Dilma Rousseff","2turno_aecio",15
+"indeciso_set2","Mulheres","sexo",66
+"indeciso_set2","Homens","sexo",34
+"indeciso_set2","Branco e Nulo","2turno_marina",10
+"indeciso_set2","Dilma Rousseff","2turno_marina",11
+"indeciso_set2","Marina Silva","2turno_marina",13
+"indeciso_set2","idade_media","idade_media","39,7"
+"indeciso_set2","renda_media","renda_media","1884,7"
+"indeciso_set2","anos_estudo","anos_estudo","11,2"
+"indeciso_set2","Regular","avaliacao_governo",49
+"indeciso_set2","Ótimo e bom","avaliacao_governo",20
+"indeciso_set2","Ruim e péssimo","avaliacao_governo",19
 "marina_ago","16 a 24","idade",20
 "marina_ago","25 a 34","idade",30
 "marina_ago","35 a 44","idade",23
@@ -452,6 +827,99 @@
 "marina_ago","Regular","avaliacao_governo",44
 "marina_ago","Ótimo e bom","avaliacao_governo",13
 "marina_ago","Ruim e péssimo","avaliacao_governo",41
+"marina_set","16 a 24","idade",22
+"marina_set","25 a 34","idade",26
+"marina_set","35 a 44","idade",21
+"marina_set","45 a 54","idade",16
+"marina_set","55 ou mais","idade",16
+"marina_set","Mais de 5","renda_familiar",19
+"marina_set","2 a 5","renda_familiar",37
+"marina_set","1 a 2","renda_familiar",32
+"marina_set","Ate 1","renda_familiar",12
+"marina_set","Fund. 1","escolaridade",14
+"marina_set","Fund. 2","escolaridade",19
+"marina_set","Medio","escolaridade",47
+"marina_set","Superior","escolaridade",20
+"marina_set","Nordeste","regiao",25
+"marina_set","Norte/CO","regiao",13
+"marina_set","Sudeste","regiao",43
+"marina_set","Sul","regiao",18
+"marina_set","Capital","condicao_municipio",27
+"marina_set","Interior","condicao_municipio",60
+"marina_set","Periferia","condicao_municipio",12
+"marina_set","Catolica","religiao",60
+"marina_set","Evangelica","religiao",27
+"marina_set","Outras","religiao",13
+"marina_set","Branca","cor",45
+"marina_set","Preta ou parda","cor",53
+"marina_set","Outras","cor",3
+"marina_set","Tem muito interesse","interesse",21
+"marina_set","Tem médio interesse","interesse",32
+"marina_set","Não tem interesse","interesse",46
+"marina_set","Satisfeito","vida_hoje",78
+"marina_set","Insatisfeito","vida_hoje",21
+"marina_set","Quer mudança","desejo_mudanca",79
+"marina_set","Quer continuidade","desejo_mudanca",20
+"marina_set","Aécio Neves","2turno_aecio",51
+"marina_set","Branco e Nulo","2turno_aecio",14
+"marina_set","Dilma Rousseff","2turno_aecio",28
+"marina_set","Mulheres","sexo",56
+"marina_set","Homens","sexo",44
+"marina_set","Branco e Nulo","2turno_marina",0
+"marina_set","Dilma Rousseff","2turno_marina",3
+"marina_set","Marina Silva","2turno_marina",95
+"marina_set","idade_media","idade_media","37,9"
+"marina_set","renda_media","renda_media",2152
+"marina_set","anos_estudo","anos_estudo","11,9"
+"marina_set","Regular","avaliacao_governo",47
+"marina_set","Ótimo e bom","avaliacao_governo",15
+"marina_set","Ruim e péssimo","avaliacao_governo",38
+"marina_set2","16 a 24","idade",21
+"marina_set2","25 a 34","idade",27
+"marina_set2","35 a 44","idade",22
+"marina_set2","45 a 54","idade",14
+"marina_set2","55 ou mais","idade",15
+"marina_set2","Mais de 5","renda_familiar",21
+"marina_set2","2 a 5","renda_familiar",41
+"marina_set2","1 a 2","renda_familiar",28
+"marina_set2","Ate 1","renda_familiar",11
+"marina_set2","Fund. 1","escolaridade",12
+"marina_set2","Fund. 2","escolaridade",18
+"marina_set2","Medio","escolaridade",47
+"marina_set2","Superior","escolaridade",23
+"marina_set2","Nordeste","regiao",25
+"marina_set2","Norte/CO","regiao",15
+"marina_set2","Sudeste","regiao",46
+"marina_set2","Sul","regiao",14
+"marina_set2","Capital","condicao_municipio",27
+"marina_set2","Interior","condicao_municipio",60
+"marina_set2","Periferia","condicao_municipio",14
+"marina_set2","Catolica","religiao",57
+"marina_set2","Evangelica","religiao",29
+"marina_set2","Outras","religiao",14
+"marina_set2","Branca","cor",41
+"marina_set2","Preta ou parda","cor",56
+"marina_set2","Outras","cor",3
+"marina_set2","Tem muito interesse","interesse",19
+"marina_set2","Tem médio interesse","interesse",37
+"marina_set2","Não tem interesse","interesse",44
+"marina_set2","Satisfeito","vida_hoje",79
+"marina_set2","Insatisfeito","vida_hoje",20
+"marina_set2","Quer mudança","desejo_mudanca",85
+"marina_set2","Quer continuidade","desejo_mudanca",14
+"marina_set2","Aécio Neves","2turno_aecio",55
+"marina_set2","Branco e Nulo","2turno_aecio",15
+"marina_set2","Dilma Rousseff","2turno_aecio",24
+"marina_set2","Mulheres","sexo",55
+"marina_set2","Homens","sexo",45
+"marina_set2","Dilma Rousseff","2turno_marina",2
+"marina_set2","Marina Silva","2turno_marina",97
+"marina_set2","idade_media","idade_media","36,8"
+"marina_set2","renda_media","renda_media",2293
+"marina_set2","anos_estudo","anos_estudo","12,2"
+"marina_set2","Regular","avaliacao_governo",44
+"marina_set2","Ótimo e bom","avaliacao_governo",14
+"marina_set2","Ruim e péssimo","avaliacao_governo",42
 "marina10","Capital","condicao_municipio",31
 "marina10","Interior","condicao_municipio",55
 "marina10","Periferia","condicao_municipio",14
@@ -596,6 +1064,100 @@
 "outros_jul","Regular","avaliacao_governo",34
 "outros_jul","Ótimo e bom","avaliacao_governo",17
 "outros_jul","Ruim e péssimo","avaliacao_governo",49
+"outros_set","16 a 24","idade",28
+"outros_set","25 a 34","idade",10
+"outros_set","35 a 44","idade",21
+"outros_set","45 a 54","idade",23
+"outros_set","55 ou mais","idade",18
+"outros_set","Mais de 5","renda_familiar",18
+"outros_set","2 a 5","renda_familiar",45
+"outros_set","1 a 2","renda_familiar",21
+"outros_set","Ate 1","renda_familiar",16
+"outros_set","Fund. 1","escolaridade",23
+"outros_set","Fund. 2","escolaridade",21
+"outros_set","Medio","escolaridade",36
+"outros_set","Superior","escolaridade",21
+"outros_set","Nordeste","regiao",23
+"outros_set","Norte/CO","regiao",10
+"outros_set","Sudeste","regiao",51
+"outros_set","Sul","regiao",15
+"outros_set","Capital","condicao_municipio",21
+"outros_set","Interior","condicao_municipio",59
+"outros_set","Periferia","condicao_municipio",21
+"outros_set","Catolica","religiao",56
+"outros_set","Evangelica","religiao",10
+"outros_set","Outras","religiao",33
+"outros_set","Branca","cor",51
+"outros_set","Preta ou parda","cor",49
+"outros_set","Outras","cor",0
+"outros_set","Tem muito interesse","interesse",13
+"outros_set","Tem médio interesse","interesse",26
+"outros_set","Não tem interesse","interesse",62
+"outros_set","Satisfeito","vida_hoje",82
+"outros_set","Insatisfeito","vida_hoje",15
+"outros_set","Quer mudança","desejo_mudanca",72
+"outros_set","Quer continuidade","desejo_mudanca",28
+"outros_set","Aécio Neves","2turno_aecio",36
+"outros_set","Branco e Nulo","2turno_aecio",21
+"outros_set","Dilma Rousseff","2turno_aecio",33
+"outros_set","Mulheres","sexo",44
+"outros_set","Homens","sexo",56
+"outros_set","Branco e Nulo","2turno_marina",13
+"outros_set","Dilma Rousseff","2turno_marina",33
+"outros_set","Marina Silva","2turno_marina",44
+"outros_set","idade_media","idade_media",39
+"outros_set","renda_media","renda_media","2206,4"
+"outros_set","anos_estudo","anos_estudo","11,3"
+"outros_set","Regular","avaliacao_governo",36
+"outros_set","Ótimo e bom","avaliacao_governo",26
+"outros_set","Ruim e péssimo","avaliacao_governo",36
+"outros_set2","16 a 24","idade",22
+"outros_set2","25 a 34","idade",22
+"outros_set2","35 a 44","idade",18
+"outros_set2","45 a 54","idade",29
+"outros_set2","55 ou mais","idade",9
+"outros_set2","Mais de 5","renda_familiar",21
+"outros_set2","2 a 5","renda_familiar",53
+"outros_set2","1 a 2","renda_familiar",21
+"outros_set2","Ate 1","renda_familiar",5
+"outros_set2","Fund. 1","escolaridade",11
+"outros_set2","Fund. 2","escolaridade",24
+"outros_set2","Medio","escolaridade",40
+"outros_set2","Superior","escolaridade",24
+"outros_set2","Nordeste","regiao",29
+"outros_set2","Norte/CO","regiao",4
+"outros_set2","Sudeste","regiao",60
+"outros_set2","Sul","regiao",7
+"outros_set2","Capital","condicao_municipio",44
+"outros_set2","Interior","condicao_municipio",33
+"outros_set2","Periferia","condicao_municipio",22
+"outros_set2","Catolica","religiao",47
+"outros_set2","Evangelica","religiao",27
+"outros_set2","Outras","religiao",27
+"outros_set2","Branca","cor",49
+"outros_set2","Preta ou parda","cor",47
+"outros_set2","Outras","cor",4
+"outros_set2","Tem muito interesse","interesse",16
+"outros_set2","Tem médio interesse","interesse",36
+"outros_set2","Não tem interesse","interesse",47
+"outros_set2","Satisfeito","vida_hoje",78
+"outros_set2","Insatisfeito","vida_hoje",20
+"outros_set2","Quer mudança","desejo_mudanca",84
+"outros_set2","Quer continuidade","desejo_mudanca",11
+"outros_set2","Aécio Neves","2turno_aecio",36
+"outros_set2","Branco e Nulo","2turno_aecio",24
+"outros_set2","Dilma Rousseff","2turno_aecio",33
+"outros_set2","Mulheres","sexo",51
+"outros_set2","Homens","sexo",49
+"outros_set2","Branco e Nulo","2turno_marina",22
+"outros_set2","Dilma Rousseff","2turno_marina",31
+"outros_set2","Marina Silva","2turno_marina",44
+"outros_set2","idade_media","idade_media","37,8"
+"outros_set2","renda_media","renda_media","2499,3"
+"outros_set2","anos_estudo","anos_estudo",12
+"outros_set2","Regular","avaliacao_governo",44
+"outros_set2","Ótimo e bom","avaliacao_governo",29
+"outros_set2","Ruim e péssimo","avaliacao_governo",25
 "pastor_ago","16 a 24","idade",17
 "pastor_ago","25 a 34","idade",34
 "pastor_ago","35 a 44","idade",10
@@ -687,288 +1249,6 @@
 "pastor_jul","Regular","avaliacao_governo",50
 "pastor_jul","Ótimo e bom","avaliacao_governo",15
 "pastor_jul","Ruim e péssimo","avaliacao_governo",35
-"aecio_set","16 a 24","idade",19
-"aecio_set","25 a 34","idade",23
-"aecio_set","35 a 44","idade",21
-"aecio_set","45 a 54","idade",19
-"aecio_set","55 ou mais","idade",18
-"aecio_set","Mais de 5","renda_familiar",27
-"aecio_set","2 a 5","renda_familiar",38
-"aecio_set","1 a 2","renda_familiar",26
-"aecio_set","Ate 1","renda_familiar",8
-"aecio_set","Fund. 1","escolaridade",11
-"aecio_set","Fund. 2","escolaridade",19
-"aecio_set","Medio","escolaridade",39
-"aecio_set","Superior","escolaridade",30
-"aecio_set","Nordeste","regiao",12
-"aecio_set","Norte/CO","regiao",16
-"aecio_set","Sudeste","regiao",55
-"aecio_set","Sul","regiao",17
-"aecio_set","Capital","condicao_municipio",26
-"aecio_set","Interior","condicao_municipio",62
-"aecio_set","Periferia","condicao_municipio",13
-"aecio_set","Catolica","religiao",71
-"aecio_set","Evangelica","religiao",13
-"aecio_set","Outras","religiao",16
-"aecio_set","Branca","cor",54
-"aecio_set","Preta ou parda","cor",43
-"aecio_set","Outras","cor",3
-"aecio_set","Tem muito interesse","interesse",24
-"aecio_set","Tem médio interesse","interesse",36
-"aecio_set","Não tem interesse","interesse",41
-"aecio_set","Satisfeito","vida_hoje",77
-"aecio_set","Insatisfeito","vida_hoje",22
-"aecio_set","Quer mudança","desejo_mudanca",81
-"aecio_set","Quer continuidade","desejo_mudanca",17
-"aecio_set","Aécio Neves","2turno_aecio",95
-"aecio_set","Branco e Nulo","2turno_aecio",0
-"aecio_set","Dilma Rousseff","2turno_aecio",3
-"aecio_set","Mulheres","sexo",48
-"aecio_set","Homens","sexo",52
-"aecio_set","Branco e Nulo","2turno_marina",12
-"aecio_set","Dilma Rousseff","2turno_marina",17
-"aecio_set","Marina Silva","2turno_marina",66
-"aecio_set","idade_media","idade_media","39,1"
-"aecio_set","renda_media","renda_media","2444,4"
-"aecio_set","anos_estudo","anos_estudo","12,4"
-"aecio_set","Regular","avaliacao_governo",46
-"aecio_set","Ótimo e bom","avaliacao_governo",8
-"aecio_set","Ruim e péssimo","avaliacao_governo",46
-"branco_set","16 a 24","idade",19
-"branco_set","25 a 34","idade",27
-"branco_set","35 a 44","idade",24
-"branco_set","45 a 54","idade",19
-"branco_set","55 ou mais","idade",11
-"branco_set","Mais de 5","renda_familiar",15
-"branco_set","2 a 5","renda_familiar",35
-"branco_set","1 a 2","renda_familiar",38
-"branco_set","Ate 1","renda_familiar",13
-"branco_set","Fund. 1","escolaridade",17
-"branco_set","Fund. 2","escolaridade",20
-"branco_set","Medio","escolaridade",46
-"branco_set","Superior","escolaridade",16
-"branco_set","Nordeste","regiao",24
-"branco_set","Norte/CO","regiao",12
-"branco_set","Sudeste","regiao",57
-"branco_set","Sul","regiao",7
-"branco_set","Capital","condicao_municipio",32
-"branco_set","Interior","condicao_municipio",52
-"branco_set","Periferia","condicao_municipio",16
-"branco_set","Catolica","religiao",58
-"branco_set","Evangelica","religiao",17
-"branco_set","Outras","religiao",25
-"branco_set","Branca","cor",33
-"branco_set","Preta ou parda","cor",65
-"branco_set","Outras","cor",2
-"branco_set","Tem muito interesse","interesse",5
-"branco_set","Tem médio interesse","interesse",12
-"branco_set","Não tem interesse","interesse",82
-"branco_set","Satisfeito","vida_hoje",69
-"branco_set","Insatisfeito","vida_hoje",31
-"branco_set","Quer mudança","desejo_mudanca",82
-"branco_set","Quer continuidade","desejo_mudanca",14
-"branco_set","Aécio Neves","2turno_aecio",7
-"branco_set","Branco e Nulo","2turno_aecio",79
-"branco_set","Dilma Rousseff","2turno_aecio",7
-"branco_set","Mulheres","sexo",52
-"branco_set","Homens","sexo",48
-"branco_set","Branco e Nulo","2turno_marina",79
-"branco_set","Dilma Rousseff","2turno_marina",5
-"branco_set","Marina Silva","2turno_marina",11
-"branco_set","idade_media","idade_media","37,2"
-"branco_set","renda_media","renda_media","1996,7"
-"branco_set","anos_estudo","anos_estudo","11,3"
-"branco_set","Regular","avaliacao_governo",39
-"branco_set","Ótimo e bom","avaliacao_governo",12
-"branco_set","Ruim e péssimo","avaliacao_governo",47
-"dilma_set","16 a 24","idade",17
-"dilma_set","25 a 34","idade",23
-"dilma_set","35 a 44","idade",21
-"dilma_set","45 a 54","idade",19
-"dilma_set","55 ou mais","idade",19
-"dilma_set","Mais de 5","renda_familiar",13
-"dilma_set","2 a 5","renda_familiar",34
-"dilma_set","1 a 2","renda_familiar",34
-"dilma_set","Ate 1","renda_familiar",19
-"dilma_set","Fund. 1","escolaridade",25
-"dilma_set","Fund. 2","escolaridade",26
-"dilma_set","Medio","escolaridade",37
-"dilma_set","Superior","escolaridade",12
-"dilma_set","Nordeste","regiao",34
-"dilma_set","Norte/CO","regiao",15
-"dilma_set","Sudeste","regiao",37
-"dilma_set","Sul","regiao",13
-"dilma_set","Capital","condicao_municipio",23
-"dilma_set","Interior","condicao_municipio",64
-"dilma_set","Periferia","condicao_municipio",14
-"dilma_set","Catolica","religiao",70
-"dilma_set","Evangelica","religiao",18
-"dilma_set","Outras","religiao",11
-"dilma_set","Branca","cor",36
-"dilma_set","Preta ou parda","cor",61
-"dilma_set","Outras","cor",3
-"dilma_set","Tem muito interesse","interesse",23
-"dilma_set","Tem médio interesse","interesse",31
-"dilma_set","Não tem interesse","interesse",45
-"dilma_set","Satisfeito","vida_hoje",83
-"dilma_set","Insatisfeito","vida_hoje",17
-"dilma_set","Quer mudança","desejo_mudanca",50
-"dilma_set","Quer continuidade","desejo_mudanca",48
-"dilma_set","Aécio Neves","2turno_aecio",2
-"dilma_set","Branco e Nulo","2turno_aecio",0
-"dilma_set","Dilma Rousseff","2turno_aecio",95
-"dilma_set","Mulheres","sexo",49
-"dilma_set","Homens","sexo",51
-"dilma_set","Branco e Nulo","2turno_marina",1
-"dilma_set","Dilma Rousseff","2turno_marina",92
-"dilma_set","Marina Silva","2turno_marina",4
-"dilma_set","idade_media","idade_media","39,3"
-"dilma_set","renda_media","renda_media",1863
-"dilma_set","anos_estudo","anos_estudo","10,4"
-"dilma_set","Regular","avaliacao_governo",24
-"dilma_set","Ótimo e bom","avaliacao_governo",74
-"dilma_set","Ruim e péssimo","avaliacao_governo",2
-"indeciso_set","16 a 24","idade",19
-"indeciso_set","25 a 34","idade",25
-"indeciso_set","35 a 44","idade",19
-"indeciso_set","45 a 54","idade",16
-"indeciso_set","55 ou mais","idade",21
-"indeciso_set","Mais de 5","renda_familiar",14
-"indeciso_set","2 a 5","renda_familiar",34
-"indeciso_set","1 a 2","renda_familiar",37
-"indeciso_set","Ate 1","renda_familiar",16
-"indeciso_set","Fund. 1","escolaridade",21
-"indeciso_set","Fund. 2","escolaridade",21
-"indeciso_set","Medio","escolaridade",38
-"indeciso_set","Superior","escolaridade",20
-"indeciso_set","Nordeste","regiao",24
-"indeciso_set","Norte/CO","regiao",13
-"indeciso_set","Sudeste","regiao",49
-"indeciso_set","Sul","regiao",13
-"indeciso_set","Capital","condicao_municipio",24
-"indeciso_set","Interior","condicao_municipio",64
-"indeciso_set","Periferia","condicao_municipio",12
-"indeciso_set","Catolica","religiao",67
-"indeciso_set","Evangelica","religiao",19
-"indeciso_set","Outras","religiao",13
-"indeciso_set","Branca","cor",38
-"indeciso_set","Preta ou parda","cor",60
-"indeciso_set","Outras","cor",2
-"indeciso_set","Tem muito interesse","interesse",12
-"indeciso_set","Tem médio interesse","interesse",27
-"indeciso_set","Não tem interesse","interesse",58
-"indeciso_set","Satisfeito","vida_hoje",84
-"indeciso_set","Insatisfeito","vida_hoje",14
-"indeciso_set","Quer mudança","desejo_mudanca",67
-"indeciso_set","Quer continuidade","desejo_mudanca",21
-"indeciso_set","Aécio Neves","2turno_aecio",16
-"indeciso_set","Branco e Nulo","2turno_aecio",16
-"indeciso_set","Dilma Rousseff","2turno_aecio",11
-"indeciso_set","Mulheres","sexo",67
-"indeciso_set","Homens","sexo",33
-"indeciso_set","Branco e Nulo","2turno_marina",12
-"indeciso_set","Dilma Rousseff","2turno_marina",12
-"indeciso_set","Marina Silva","2turno_marina",17
-"indeciso_set","idade_media","idade_media","39,2"
-"indeciso_set","renda_media","renda_media","1928,1"
-"indeciso_set","anos_estudo","anos_estudo","11,3"
-"indeciso_set","Regular","avaliacao_governo",47
-"indeciso_set","Ótimo e bom","avaliacao_governo",24
-"indeciso_set","Ruim e péssimo","avaliacao_governo",25
-"marina_set","16 a 24","idade",22
-"marina_set","25 a 34","idade",26
-"marina_set","35 a 44","idade",21
-"marina_set","45 a 54","idade",16
-"marina_set","55 ou mais","idade",16
-"marina_set","Mais de 5","renda_familiar",19
-"marina_set","2 a 5","renda_familiar",37
-"marina_set","1 a 2","renda_familiar",32
-"marina_set","Ate 1","renda_familiar",12
-"marina_set","Fund. 1","escolaridade",14
-"marina_set","Fund. 2","escolaridade",19
-"marina_set","Medio","escolaridade",47
-"marina_set","Superior","escolaridade",20
-"marina_set","Nordeste","regiao",25
-"marina_set","Norte/CO","regiao",13
-"marina_set","Sudeste","regiao",43
-"marina_set","Sul","regiao",18
-"marina_set","Capital","condicao_municipio",27
-"marina_set","Interior","condicao_municipio",60
-"marina_set","Periferia","condicao_municipio",12
-"marina_set","Catolica","religiao",60
-"marina_set","Evangelica","religiao",27
-"marina_set","Outras","religiao",13
-"marina_set","Branca","cor",45
-"marina_set","Preta ou parda","cor",53
-"marina_set","Outras","cor",3
-"marina_set","Tem muito interesse","interesse",21
-"marina_set","Tem médio interesse","interesse",32
-"marina_set","Não tem interesse","interesse",46
-"marina_set","Satisfeito","vida_hoje",78
-"marina_set","Insatisfeito","vida_hoje",21
-"marina_set","Quer mudança","desejo_mudanca",79
-"marina_set","Quer continuidade","desejo_mudanca",20
-"marina_set","Aécio Neves","2turno_aecio",51
-"marina_set","Branco e Nulo","2turno_aecio",14
-"marina_set","Dilma Rousseff","2turno_aecio",28
-"marina_set","Mulheres","sexo",56
-"marina_set","Homens","sexo",44
-"marina_set","Branco e Nulo","2turno_marina",0
-"marina_set","Dilma Rousseff","2turno_marina",3
-"marina_set","Marina Silva","2turno_marina",95
-"marina_set","idade_media","idade_media","37,9"
-"marina_set","renda_media","renda_media",2152
-"marina_set","anos_estudo","anos_estudo","11,9"
-"marina_set","Regular","avaliacao_governo",47
-"marina_set","Ótimo e bom","avaliacao_governo",15
-"marina_set","Ruim e péssimo","avaliacao_governo",38
-"outros_set","16 a 24","idade",28
-"outros_set","25 a 34","idade",10
-"outros_set","35 a 44","idade",21
-"outros_set","45 a 54","idade",23
-"outros_set","55 ou mais","idade",18
-"outros_set","Mais de 5","renda_familiar",18
-"outros_set","2 a 5","renda_familiar",45
-"outros_set","1 a 2","renda_familiar",21
-"outros_set","Ate 1","renda_familiar",16
-"outros_set","Fund. 1","escolaridade",23
-"outros_set","Fund. 2","escolaridade",21
-"outros_set","Medio","escolaridade",36
-"outros_set","Superior","escolaridade",21
-"outros_set","Nordeste","regiao",23
-"outros_set","Norte/CO","regiao",10
-"outros_set","Sudeste","regiao",51
-"outros_set","Sul","regiao",15
-"outros_set","Capital","condicao_municipio",21
-"outros_set","Interior","condicao_municipio",59
-"outros_set","Periferia","condicao_municipio",21
-"outros_set","Catolica","religiao",56
-"outros_set","Evangelica","religiao",10
-"outros_set","Outras","religiao",33
-"outros_set","Branca","cor",51
-"outros_set","Preta ou parda","cor",49
-"outros_set","Outras","cor",0
-"outros_set","Tem muito interesse","interesse",13
-"outros_set","Tem médio interesse","interesse",26
-"outros_set","Não tem interesse","interesse",62
-"outros_set","Satisfeito","vida_hoje",82
-"outros_set","Insatisfeito","vida_hoje",15
-"outros_set","Quer mudança","desejo_mudanca",72
-"outros_set","Quer continuidade","desejo_mudanca",28
-"outros_set","Aécio Neves","2turno_aecio",36
-"outros_set","Branco e Nulo","2turno_aecio",21
-"outros_set","Dilma Rousseff","2turno_aecio",33
-"outros_set","Mulheres","sexo",44
-"outros_set","Homens","sexo",56
-"outros_set","Branco e Nulo","2turno_marina",13
-"outros_set","Dilma Rousseff","2turno_marina",33
-"outros_set","Marina Silva","2turno_marina",44
-"outros_set","idade_media","idade_media",39
-"outros_set","renda_media","renda_media","2206,4"
-"outros_set","anos_estudo","anos_estudo","11,3"
-"outros_set","Regular","avaliacao_governo",36
-"outros_set","Ótimo e bom","avaliacao_governo",26
-"outros_set","Ruim e péssimo","avaliacao_governo",36
 "pastor_set","16 a 24","idade",16
 "pastor_set","25 a 34","idade",39
 "pastor_set","35 a 44","idade",16
@@ -1015,53 +1295,6 @@
 "pastor_set","Regular","avaliacao_governo",32
 "pastor_set","Ótimo e bom","avaliacao_governo",19
 "pastor_set","Ruim e péssimo","avaliacao_governo",49
-"total","16 a 24","idade",18
-"total","25 a 34","idade",25
-"total","35 a 44","idade",21
-"total","45 a 54","idade",17
-"total","55 ou mais","idade",18
-"total","Mais de 5","renda_familiar",18
-"total","2 a 5","renda_familiar",39
-"total","1 a 2","renda_familiar",30
-"total","Ate 1","renda_familiar",13
-"total","Fund. 1","escolaridade",18
-"total","Fund. 2","escolaridade",21
-"total","Medio","escolaridade",42
-"total","Superior","escolaridade",19
-"total","Nordeste","regiao",26
-"total","Norte/CO","regiao",14
-"total","Sudeste","regiao",44
-"total","Sul","regiao",15
-"total","Capital","condicao_municipio",26
-"total","Interior","condicao_municipio",61
-"total","Periferia","condicao_municipio",13
-"total","Catolica","religiao",65
-"total","Evangelica","religiao",21
-"total","Outras","religiao",14
-"total","Branca","cor",42
-"total","Preta ou parda","cor",56
-"total","Outras","cor",2
-"total","Tem muito interesse","interesse",18
-"total","Tem médio interesse","interesse",35
-"total","Não tem interesse","interesse",47
-"total","Satisfeito","vida_hoje",80
-"total","Insatisfeito","vida_hoje",19
-"total","Quer mudança","desejo_mudanca",70
-"total","Quer continuidade","desejo_mudanca",27
-"total","Aécio Neves","2turno_aecio",37
-"total","Branco e Nulo","2turno_aecio",12
-"total","Dilma Rousseff","2turno_aecio",44
-"total","Mulheres","sexo",52
-"total","Homens","sexo",48
-"total","Branco e Nulo","2turno_marina",11
-"total","Dilma Rousseff","2turno_marina",40
-"total","Marina Silva","2turno_marina",43
-"total","idade_media","idade_media","38,5"
-"total","renda_media","renda_media","2141,2"
-"total","anos_estudo","anos_estudo","11,5"
-"total","Regular","avaliacao_governo",33
-"total","Ótimo e bom","avaliacao_governo",37
-"total","Ruim e péssimo","avaliacao_governo",28
 "pastor_set2","16 a 24","idade",16
 "pastor_set2","25 a 34","idade",20
 "pastor_set2","35 a 44","idade",16
@@ -1109,283 +1342,379 @@
 "pastor_set2","Regular","avaliacao_governo",32
 "pastor_set2","Ótimo e bom","avaliacao_governo",16
 "pastor_set2","Ruim e péssimo","avaliacao_governo",52
-"outros_set2","16 a 24","idade",22
-"outros_set2","25 a 34","idade",22
-"outros_set2","35 a 44","idade",18
-"outros_set2","45 a 54","idade",29
-"outros_set2","55 ou mais","idade",9
-"outros_set2","Mais de 5","renda_familiar",21
-"outros_set2","2 a 5","renda_familiar",53
-"outros_set2","1 a 2","renda_familiar",21
-"outros_set2","Ate 1","renda_familiar",5
-"outros_set2","Fund. 1","escolaridade",11
-"outros_set2","Fund. 2","escolaridade",24
-"outros_set2","Medio","escolaridade",40
-"outros_set2","Superior","escolaridade",24
-"outros_set2","Nordeste","regiao",29
-"outros_set2","Norte/CO","regiao",4
-"outros_set2","Sudeste","regiao",60
-"outros_set2","Sul","regiao",7
-"outros_set2","Capital","condicao_municipio",44
-"outros_set2","Interior","condicao_municipio",33
-"outros_set2","Periferia","condicao_municipio",22
-"outros_set2","Catolica","religiao",47
-"outros_set2","Evangelica","religiao",27
-"outros_set2","Outras","religiao",27
-"outros_set2","Branca","cor",49
-"outros_set2","Preta ou parda","cor",47
-"outros_set2","Outras","cor",4
-"outros_set2","Tem muito interesse","interesse",16
-"outros_set2","Tem médio interesse","interesse",36
-"outros_set2","Não tem interesse","interesse",47
-"outros_set2","Satisfeito","vida_hoje",78
-"outros_set2","Insatisfeito","vida_hoje",20
-"outros_set2","Quer mudança","desejo_mudanca",84
-"outros_set2","Quer continuidade","desejo_mudanca",11
-"outros_set2","Aécio Neves","2turno_aecio",36
-"outros_set2","Branco e Nulo","2turno_aecio",24
-"outros_set2","Dilma Rousseff","2turno_aecio",33
-"outros_set2","Mulheres","sexo",51
-"outros_set2","Homens","sexo",49
-"outros_set2","Branco e Nulo","2turno_marina",22
-"outros_set2","Dilma Rousseff","2turno_marina",31
-"outros_set2","Marina Silva","2turno_marina",44
-"outros_set2","idade_media","idade_media","37,8"
-"outros_set2","renda_media","renda_media","2499,3"
-"outros_set2","anos_estudo","anos_estudo",12
-"outros_set2","Regular","avaliacao_governo",44
-"outros_set2","Ótimo e bom","avaliacao_governo",29
-"outros_set2","Ruim e péssimo","avaliacao_governo",25
-"marina_set2","16 a 24","idade",21
-"marina_set2","25 a 34","idade",27
-"marina_set2","35 a 44","idade",22
-"marina_set2","45 a 54","idade",14
-"marina_set2","55 ou mais","idade",15
-"marina_set2","Mais de 5","renda_familiar",21
-"marina_set2","2 a 5","renda_familiar",41
-"marina_set2","1 a 2","renda_familiar",28
-"marina_set2","Ate 1","renda_familiar",11
-"marina_set2","Fund. 1","escolaridade",12
-"marina_set2","Fund. 2","escolaridade",18
-"marina_set2","Medio","escolaridade",47
-"marina_set2","Superior","escolaridade",23
-"marina_set2","Nordeste","regiao",25
-"marina_set2","Norte/CO","regiao",15
-"marina_set2","Sudeste","regiao",46
-"marina_set2","Sul","regiao",14
-"marina_set2","Capital","condicao_municipio",27
-"marina_set2","Interior","condicao_municipio",60
-"marina_set2","Periferia","condicao_municipio",14
-"marina_set2","Catolica","religiao",57
-"marina_set2","Evangelica","religiao",29
-"marina_set2","Outras","religiao",14
-"marina_set2","Branca","cor",41
-"marina_set2","Preta ou parda","cor",56
-"marina_set2","Outras","cor",3
-"marina_set2","Tem muito interesse","interesse",19
-"marina_set2","Tem médio interesse","interesse",37
-"marina_set2","Não tem interesse","interesse",44
-"marina_set2","Satisfeito","vida_hoje",79
-"marina_set2","Insatisfeito","vida_hoje",20
-"marina_set2","Quer mudança","desejo_mudanca",85
-"marina_set2","Quer continuidade","desejo_mudanca",14
-"marina_set2","Aécio Neves","2turno_aecio",55
-"marina_set2","Branco e Nulo","2turno_aecio",15
-"marina_set2","Dilma Rousseff","2turno_aecio",24
-"marina_set2","Mulheres","sexo",55
-"marina_set2","Homens","sexo",45
-"marina_set2","Dilma Rousseff","2turno_marina",2
-"marina_set2","Marina Silva","2turno_marina",97
-"marina_set2","idade_media","idade_media","36,8"
-"marina_set2","renda_media","renda_media",2293
-"marina_set2","anos_estudo","anos_estudo","12,2"
-"marina_set2","Regular","avaliacao_governo",44
-"marina_set2","Ótimo e bom","avaliacao_governo",14
-"marina_set2","Ruim e péssimo","avaliacao_governo",42
-"indeciso_set2","16 a 24","idade",17
-"indeciso_set2","25 a 34","idade",24
-"indeciso_set2","35 a 44","idade",20
-"indeciso_set2","45 a 54","idade",14
-"indeciso_set2","55 ou mais","idade",24
-"indeciso_set2","Mais de 5","renda_familiar",13
-"indeciso_set2","2 a 5","renda_familiar",36
-"indeciso_set2","1 a 2","renda_familiar",31
-"indeciso_set2","Ate 1","renda_familiar",20
-"indeciso_set2","Fund. 1","escolaridade",23
-"indeciso_set2","Fund. 2","escolaridade",16
-"indeciso_set2","Medio","escolaridade",45
-"indeciso_set2","Superior","escolaridade",16
-"indeciso_set2","Nordeste","regiao",26
-"indeciso_set2","Norte/CO","regiao",8
-"indeciso_set2","Sudeste","regiao",41
-"indeciso_set2","Sul","regiao",24
-"indeciso_set2","Capital","condicao_municipio",26
-"indeciso_set2","Interior","condicao_municipio",56
-"indeciso_set2","Periferia","condicao_municipio",18
-"indeciso_set2","Catolica","religiao",62
-"indeciso_set2","Evangelica","religiao",19
-"indeciso_set2","Outras","religiao",19
-"indeciso_set2","Branca","cor",46
-"indeciso_set2","Preta ou parda","cor",51
-"indeciso_set2","Outras","cor",3
-"indeciso_set2","Tem muito interesse","interesse",9
-"indeciso_set2","Tem médio interesse","interesse",24
-"indeciso_set2","Não tem interesse","interesse",66
-"indeciso_set2","Satisfeito","vida_hoje",72
-"indeciso_set2","Insatisfeito","vida_hoje",25
-"indeciso_set2","Quer mudança","desejo_mudanca",61
-"indeciso_set2","Quer continuidade","desejo_mudanca",24
-"indeciso_set2","Aécio Neves","2turno_aecio",7
-"indeciso_set2","Branco e Nulo","2turno_aecio",13
-"indeciso_set2","Dilma Rousseff","2turno_aecio",15
-"indeciso_set2","Mulheres","sexo",66
-"indeciso_set2","Homens","sexo",34
-"indeciso_set2","Branco e Nulo","2turno_marina",10
-"indeciso_set2","Dilma Rousseff","2turno_marina",11
-"indeciso_set2","Marina Silva","2turno_marina",13
-"indeciso_set2","idade_media","idade_media","39,7"
-"indeciso_set2","renda_media","renda_media","1884,7"
-"indeciso_set2","anos_estudo","anos_estudo","11,2"
-"indeciso_set2","Regular","avaliacao_governo",49
-"indeciso_set2","Ótimo e bom","avaliacao_governo",20
-"indeciso_set2","Ruim e péssimo","avaliacao_governo",19
-"dilma_set2","16 a 24","idade",15
-"dilma_set2","25 a 34","idade",23
-"dilma_set2","35 a 44","idade",21
-"dilma_set2","45 a 54","idade",19
-"dilma_set2","55 ou mais","idade",21
-"dilma_set2","Mais de 5","renda_familiar",12
-"dilma_set2","2 a 5","renda_familiar",36
-"dilma_set2","1 a 2","renda_familiar",35
-"dilma_set2","Ate 1","renda_familiar",16
-"dilma_set2","Fund. 1","escolaridade",26
-"dilma_set2","Fund. 2","escolaridade",25
-"dilma_set2","Medio","escolaridade",38
-"dilma_set2","Superior","escolaridade",11
-"dilma_set2","Nordeste","regiao",35
-"dilma_set2","Norte/CO","regiao",14
-"dilma_set2","Sudeste","regiao",37
-"dilma_set2","Sul","regiao",14
-"dilma_set2","Capital","condicao_municipio",23
-"dilma_set2","Interior","condicao_municipio",65
-"dilma_set2","Periferia","condicao_municipio",12
-"dilma_set2","Catolica","religiao",74
-"dilma_set2","Evangelica","religiao",16
-"dilma_set2","Outras","religiao",10
-"dilma_set2","Branca","cor",34
-"dilma_set2","Preta ou parda","cor",64
-"dilma_set2","Outras","cor",2
-"dilma_set2","Tem muito interesse","interesse",19
-"dilma_set2","Tem médio interesse","interesse",40
-"dilma_set2","Não tem interesse","interesse",41
-"dilma_set2","Satisfeito","vida_hoje",85
-"dilma_set2","Insatisfeito","vida_hoje",15
-"dilma_set2","Quer mudança","desejo_mudanca",47
-"dilma_set2","Quer continuidade","desejo_mudanca",51
-"dilma_set2","Aécio Neves","2turno_aecio",2
-"dilma_set2","Branco e Nulo","2turno_aecio",0
-"dilma_set2","Dilma Rousseff","2turno_aecio",97
-"dilma_set2","Mulheres","sexo",49
-"dilma_set2","Homens","sexo",51
-"dilma_set2","Branco e Nulo","2turno_marina",0
-"dilma_set2","Dilma Rousseff","2turno_marina",96
-"dilma_set2","Marina Silva","2turno_marina",3
-"dilma_set2","idade_media","idade_media","40,1"
-"dilma_set2","renda_media","renda_media","1870,3"
-"dilma_set2","anos_estudo","anos_estudo","10,4"
-"dilma_set2","Regular","avaliacao_governo",21
-"dilma_set2","Ótimo e bom","avaliacao_governo",78
-"dilma_set2","Ruim e péssimo","avaliacao_governo",2
-"branco_set2","16 a 24","idade",19
-"branco_set2","25 a 34","idade",25
-"branco_set2","35 a 44","idade",20
-"branco_set2","45 a 54","idade",21
-"branco_set2","55 ou mais","idade",14
-"branco_set2","Mais de 5","renda_familiar",14
-"branco_set2","2 a 5","renda_familiar",42
-"branco_set2","1 a 2","renda_familiar",31
-"branco_set2","Ate 1","renda_familiar",14
-"branco_set2","Fund. 1","escolaridade",15
-"branco_set2","Fund. 2","escolaridade",22
-"branco_set2","Medio","escolaridade",44
-"branco_set2","Superior","escolaridade",19
-"branco_set2","Nordeste","regiao",19
-"branco_set2","Norte/CO","regiao",15
-"branco_set2","Sudeste","regiao",52
-"branco_set2","Sul","regiao",13
-"branco_set2","Capital","condicao_municipio",33
-"branco_set2","Interior","condicao_municipio",52
-"branco_set2","Periferia","condicao_municipio",15
-"branco_set2","Catolica","religiao",53
-"branco_set2","Evangelica","religiao",21
-"branco_set2","Outras","religiao",25
-"branco_set2","Branca","cor",40
-"branco_set2","Preta ou parda","cor",58
-"branco_set2","Outras","cor",2
-"branco_set2","Tem muito interesse","interesse",3
-"branco_set2","Tem médio interesse","interesse",8
-"branco_set2","Não tem interesse","interesse",90
-"branco_set2","Satisfeito","vida_hoje",70
-"branco_set2","Insatisfeito","vida_hoje",29
-"branco_set2","Quer mudança","desejo_mudanca",81
-"branco_set2","Quer continuidade","desejo_mudanca",7
-"branco_set2","Aécio Neves","2turno_aecio",7
-"branco_set2","Branco e Nulo","2turno_aecio",83
-"branco_set2","Dilma Rousseff","2turno_aecio",5
-"branco_set2","Mulheres","sexo",52
-"branco_set2","Homens","sexo",48
-"branco_set2","Branco e Nulo","2turno_marina",84
-"branco_set2","Dilma Rousseff","2turno_marina",4
-"branco_set2","Marina Silva","2turno_marina",8
-"branco_set2","idade_media","idade_media","37,9"
-"branco_set2","renda_media","renda_media","2058,4"
-"branco_set2","anos_estudo","anos_estudo","11,7"
-"branco_set2","Regular","avaliacao_governo",29
-"branco_set2","Ótimo e bom","avaliacao_governo",7
-"branco_set2","Ruim e péssimo","avaliacao_governo",58
-"aecio_set2","16 a 24","idade",20
-"aecio_set2","25 a 34","idade",27
-"aecio_set2","35 a 44","idade",19
-"aecio_set2","45 a 54","idade",16
-"aecio_set2","55 ou mais","idade",18
-"aecio_set2","Mais de 5","renda_familiar",27
-"aecio_set2","2 a 5","renda_familiar",40
-"aecio_set2","1 a 2","renda_familiar",25
-"aecio_set2","Ate 1","renda_familiar",8
-"aecio_set2","Fund. 1","escolaridade",13
-"aecio_set2","Fund. 2","escolaridade",18
-"aecio_set2","Medio","escolaridade",43
-"aecio_set2","Superior","escolaridade",26
-"aecio_set2","Nordeste","regiao",13
-"aecio_set2","Norte/CO","regiao",15
-"aecio_set2","Sudeste","regiao",53
-"aecio_set2","Sul","regiao",19
-"aecio_set2","Capital","condicao_municipio",25
-"aecio_set2","Interior","condicao_municipio",64
-"aecio_set2","Periferia","condicao_municipio",11
-"aecio_set2","Catolica","religiao",68
-"aecio_set2","Evangelica","religiao",18
-"aecio_set2","Outras","religiao",14
-"aecio_set2","Branca","cor",56
-"aecio_set2","Preta ou parda","cor",43
-"aecio_set2","Outras","cor",1
-"aecio_set2","Tem muito interesse","interesse",23
-"aecio_set2","Tem médio interesse","interesse",36
-"aecio_set2","Não tem interesse","interesse",40
-"aecio_set2","Satisfeito","vida_hoje",79
-"aecio_set2","Insatisfeito","vida_hoje",20
-"aecio_set2","Quer mudança","desejo_mudanca",88
-"aecio_set2","Quer continuidade","desejo_mudanca",11
-"aecio_set2","Aécio Neves","2turno_aecio",97
-"aecio_set2","Dilma Rousseff","2turno_aecio",2
-"aecio_set2","Mulheres","sexo",50
-"aecio_set2","Homens","sexo",50
-"aecio_set2","Branco e Nulo","2turno_marina",18
-"aecio_set2","Dilma Rousseff","2turno_marina",16
-"aecio_set2","Marina Silva","2turno_marina",59
-"aecio_set2","idade_media","idade_media","38,2"
-"aecio_set2","renda_media","renda_media","2484,2"
-"aecio_set2","anos_estudo","anos_estudo","12,3"
-"aecio_set2","Regular","avaliacao_governo",37
-"aecio_set2","Ótimo e bom","avaliacao_governo",12
-"aecio_set2","Ruim e péssimo","avaliacao_governo",51
+"aecio_set3","16 a 24","idade",21
+"aecio_set3","25 a 34","idade",23
+"aecio_set3","35 a 44","idade",19
+"aecio_set3","45 a 54","idade",19
+"aecio_set3","55 ou mais","idade",18
+"aecio_set3","Mais de 5","renda_familiar",24
+"aecio_set3","2 a 5","renda_familiar",39
+"aecio_set3","1 a 2","renda_familiar",29
+"aecio_set3","Ate 1","renda_familiar",7
+"aecio_set3","Fund. 1","escolaridade",13
+"aecio_set3","Fund. 2","escolaridade",19
+"aecio_set3","Medio","escolaridade",43
+"aecio_set3","Superior","escolaridade",25
+"aecio_set3","Nordeste","regiao",15
+"aecio_set3","Norte/CO","regiao",16
+"aecio_set3","Sudeste","regiao",50
+"aecio_set3","Sul","regiao",18
+"aecio_set3","Capital","condicao_municipio",25
+"aecio_set3","Interior","condicao_municipio",64
+"aecio_set3","Periferia","condicao_municipio",12
+"aecio_set3","Catolica","religiao",67
+"aecio_set3","Evangelica","religiao",22
+"aecio_set3","Outras","religiao",11
+"aecio_set3","Branca","cor",55
+"aecio_set3","Preta ou parda","cor",43
+"aecio_set3","Outras","cor",2
+"aecio_set3","Tem muito interesse","interesse",25
+"aecio_set3","Tem médio interesse","interesse",37
+"aecio_set3","Não tem interesse","interesse",37
+"aecio_set3","Satisfeito","vida_hoje",78
+"aecio_set3","Insatisfeito","vida_hoje",22
+"aecio_set3","Quer mudança","desejo_mudanca",89
+"aecio_set3","Quer continuidade","desejo_mudanca",11
+"aecio_set3","Aécio Neves","2turno_aecio",96
+"aecio_set3","Branco e Nulo","2turno_aecio",0
+"aecio_set3","Dilma Rousseff","2turno_aecio",3
+"aecio_set3","Mulheres","sexo",49
+"aecio_set3","Homens","sexo",51
+"aecio_set3","Branco e Nulo","2turno_marina",22
+"aecio_set3","Dilma Rousseff","2turno_marina",17
+"aecio_set3","Marina Silva","2turno_marina",51
+"aecio_set3","idade_media","idade_media","38,7"
+"aecio_set3","renda_media","renda_media","2368,7"
+"aecio_set3","anos_estudo","anos_estudo","12,2"
+"aecio_set3","Regular","avaliacao_governo",39
+"aecio_set3","Ótimo e bom","avaliacao_governo",12
+"aecio_set3","Ruim e péssimo","avaliacao_governo",48
+"branco_set3","16 a 24","idade",16
+"branco_set3","25 a 34","idade",28
+"branco_set3","35 a 44","idade",22
+"branco_set3","45 a 54","idade",18
+"branco_set3","55 ou mais","idade",17
+"branco_set3","Mais de 5","renda_familiar",13
+"branco_set3","2 a 5","renda_familiar",42
+"branco_set3","1 a 2","renda_familiar",36
+"branco_set3","Ate 1","renda_familiar",9
+"branco_set3","Fund. 1","escolaridade",12
+"branco_set3","Fund. 2","escolaridade",22
+"branco_set3","Medio","escolaridade",45
+"branco_set3","Superior","escolaridade",21
+"branco_set3","Nordeste","regiao",21
+"branco_set3","Norte/CO","regiao",8
+"branco_set3","Sudeste","regiao",58
+"branco_set3","Sul","regiao",13
+"branco_set3","Capital","condicao_municipio",37
+"branco_set3","Interior","condicao_municipio",43
+"branco_set3","Periferia","condicao_municipio",20
+"branco_set3","Catolica","religiao",56
+"branco_set3","Evangelica","religiao",18
+"branco_set3","Outras","religiao",26
+"branco_set3","Branca","cor",44
+"branco_set3","Preta ou parda","cor",54
+"branco_set3","Outras","cor",2
+"branco_set3","Tem muito interesse","interesse",1
+"branco_set3","Tem médio interesse","interesse",9
+"branco_set3","Não tem interesse","interesse",89
+"branco_set3","Satisfeito","vida_hoje",66
+"branco_set3","Insatisfeito","vida_hoje",33
+"branco_set3","Quer mudança","desejo_mudanca",81
+"branco_set3","Quer continuidade","desejo_mudanca",9
+"branco_set3","Aécio Neves","2turno_aecio",4
+"branco_set3","Branco e Nulo","2turno_aecio",87
+"branco_set3","Dilma Rousseff","2turno_aecio",3
+"branco_set3","Mulheres","sexo",51
+"branco_set3","Homens","sexo",49
+"branco_set3","Branco e Nulo","2turno_marina",83
+"branco_set3","Dilma Rousseff","2turno_marina",2
+"branco_set3","Marina Silva","2turno_marina",8
+"branco_set3","idade_media","idade_media","39,3"
+"branco_set3","renda_media","renda_media","2051,2"
+"branco_set3","anos_estudo","anos_estudo",12
+"branco_set3","Regular","avaliacao_governo",33
+"branco_set3","Ótimo e bom","avaliacao_governo",5
+"branco_set3","Ruim e péssimo","avaliacao_governo",57
+"dilma_set3","16 a 24","idade",16
+"dilma_set3","25 a 34","idade",24
+"dilma_set3","35 a 44","idade",21
+"dilma_set3","45 a 54","idade",17
+"dilma_set3","55 ou mais","idade",22
+"dilma_set3","Mais de 5","renda_familiar",11
+"dilma_set3","2 a 5","renda_familiar",33
+"dilma_set3","1 a 2","renda_familiar",40
+"dilma_set3","Ate 1","renda_familiar",15
+"dilma_set3","Fund. 1","escolaridade",25
+"dilma_set3","Fund. 2","escolaridade",24
+"dilma_set3","Medio","escolaridade",39
+"dilma_set3","Superior","escolaridade",12
+"dilma_set3","Nordeste","regiao",34
+"dilma_set3","Norte/CO","regiao",15
+"dilma_set3","Sudeste","regiao",35
+"dilma_set3","Sul","regiao",16
+"dilma_set3","Capital","condicao_municipio",21
+"dilma_set3","Interior","condicao_municipio",66
+"dilma_set3","Periferia","condicao_municipio",13
+"dilma_set3","Catolica","religiao",71
+"dilma_set3","Evangelica","religiao",20
+"dilma_set3","Outras","religiao",9
+"dilma_set3","Branca","cor",35
+"dilma_set3","Preta ou parda","cor",62
+"dilma_set3","Outras","cor",2
+"dilma_set3","Tem muito interesse","interesse",20
+"dilma_set3","Tem médio interesse","interesse",40
+"dilma_set3","Não tem interesse","interesse",39
+"dilma_set3","Satisfeito","vida_hoje",84
+"dilma_set3","Insatisfeito","vida_hoje",15
+"dilma_set3","Quer mudança","desejo_mudanca",53
+"dilma_set3","Quer continuidade","desejo_mudanca",45
+"dilma_set3","Aécio Neves","2turno_aecio",2
+"dilma_set3","Branco e Nulo","2turno_aecio",0
+"dilma_set3","Dilma Rousseff","2turno_aecio",97
+"dilma_set3","Mulheres","sexo",53
+"dilma_set3","Homens","sexo",47
+"dilma_set3","Branco e Nulo","2turno_marina",0
+"dilma_set3","Dilma Rousseff","2turno_marina",96
+"dilma_set3","Marina Silva","2turno_marina",3
+"dilma_set3","idade_media","idade_media","40,2"
+"dilma_set3","renda_media","renda_media","1801,7"
+"dilma_set3","anos_estudo","anos_estudo","10,5"
+"dilma_set3","Regular","avaliacao_governo",21
+"dilma_set3","Ótimo e bom","avaliacao_governo",78
+"dilma_set3","Ruim e péssimo","avaliacao_governo",1
+"indeciso_set3","16 a 24","idade",21
+"indeciso_set3","25 a 34","idade",21
+"indeciso_set3","35 a 44","idade",22
+"indeciso_set3","45 a 54","idade",14
+"indeciso_set3","55 ou mais","idade",22
+"indeciso_set3","Mais de 5","renda_familiar",10
+"indeciso_set3","2 a 5","renda_familiar",26
+"indeciso_set3","1 a 2","renda_familiar",44
+"indeciso_set3","Ate 1","renda_familiar",19
+"indeciso_set3","Fund. 1","escolaridade",27
+"indeciso_set3","Fund. 2","escolaridade",22
+"indeciso_set3","Medio","escolaridade",34
+"indeciso_set3","Superior","escolaridade",17
+"indeciso_set3","Nordeste","regiao",34
+"indeciso_set3","Norte/CO","regiao",10
+"indeciso_set3","Sudeste","regiao",37
+"indeciso_set3","Sul","regiao",18
+"indeciso_set3","Capital","condicao_municipio",32
+"indeciso_set3","Interior","condicao_municipio",57
+"indeciso_set3","Periferia","condicao_municipio",10
+"indeciso_set3","Catolica","religiao",62
+"indeciso_set3","Evangelica","religiao",16
+"indeciso_set3","Outras","religiao",21
+"indeciso_set3","Branca","cor",37
+"indeciso_set3","Preta ou parda","cor",62
+"indeciso_set3","Outras","cor",1
+"indeciso_set3","Tem muito interesse","interesse",10
+"indeciso_set3","Tem médio interesse","interesse",19
+"indeciso_set3","Não tem interesse","interesse",68
+"indeciso_set3","Satisfeito","vida_hoje",70
+"indeciso_set3","Insatisfeito","vida_hoje",28
+"indeciso_set3","Quer mudança","desejo_mudanca",66
+"indeciso_set3","Quer continuidade","desejo_mudanca",21
+"indeciso_set3","Aécio Neves","2turno_aecio",12
+"indeciso_set3","Branco e Nulo","2turno_aecio",12
+"indeciso_set3","Dilma Rousseff","2turno_aecio",15
+"indeciso_set3","Mulheres","sexo",56
+"indeciso_set3","Homens","sexo",44
+"indeciso_set3","Branco e Nulo","2turno_marina",9
+"indeciso_set3","Dilma Rousseff","2turno_marina",11
+"indeciso_set3","Marina Silva","2turno_marina",13
+"indeciso_set3","idade_media","idade_media","39,2"
+"indeciso_set3","renda_media","renda_media","1638,9"
+"indeciso_set3","anos_estudo","anos_estudo","10,6"
+"indeciso_set3","Regular","avaliacao_governo",51
+"indeciso_set3","Ótimo e bom","avaliacao_governo",23
+"indeciso_set3","Ruim e péssimo","avaliacao_governo",20
+"marina_set3","16 a 24","idade",22
+"marina_set3","25 a 34","idade",27
+"marina_set3","35 a 44","idade",21
+"marina_set3","45 a 54","idade",17
+"marina_set3","55 ou mais","idade",14
+"marina_set3","Mais de 5","renda_familiar",18
+"marina_set3","2 a 5","renda_familiar",40
+"marina_set3","1 a 2","renda_familiar",34
+"marina_set3","Ate 1","renda_familiar",8
+"marina_set3","Fund. 1","escolaridade",13
+"marina_set3","Fund. 2","escolaridade",22
+"marina_set3","Medio","escolaridade",46
+"marina_set3","Superior","escolaridade",20
+"marina_set3","Nordeste","regiao",20
+"marina_set3","Norte/CO","regiao",15
+"marina_set3","Sudeste","regiao",51
+"marina_set3","Sul","regiao",13
+"marina_set3","Capital","condicao_municipio",27
+"marina_set3","Interior","condicao_municipio",57
+"marina_set3","Periferia","condicao_municipio",15
+"marina_set3","Catolica","religiao",55
+"marina_set3","Evangelica","religiao",31
+"marina_set3","Outras","religiao",14
+"marina_set3","Branca","cor",42
+"marina_set3","Preta ou parda","cor",56
+"marina_set3","Outras","cor",2
+"marina_set3","Tem muito interesse","interesse",22
+"marina_set3","Tem médio interesse","interesse",33
+"marina_set3","Não tem interesse","interesse",44
+"marina_set3","Satisfeito","vida_hoje",79
+"marina_set3","Insatisfeito","vida_hoje",20
+"marina_set3","Quer mudança","desejo_mudanca",87
+"marina_set3","Quer continuidade","desejo_mudanca",12
+"marina_set3","Aécio Neves","2turno_aecio",50
+"marina_set3","Branco e Nulo","2turno_aecio",19
+"marina_set3","Dilma Rousseff","2turno_aecio",23
+"marina_set3","Mulheres","sexo",52
+"marina_set3","Homens","sexo",48
+"marina_set3","Branco e Nulo","2turno_marina",1
+"marina_set3","Dilma Rousseff","2turno_marina",2
+"marina_set3","Marina Silva","2turno_marina",97
+"marina_set3","idade_media","idade_media","37,5"
+"marina_set3","renda_media","renda_media","2191,9"
+"marina_set3","anos_estudo","anos_estudo",12
+"marina_set3","Regular","avaliacao_governo",42
+"marina_set3","Ótimo e bom","avaliacao_governo",15
+"marina_set3","Ruim e péssimo","avaliacao_governo",42
+"outros_set3","16 a 24","idade",36
+"outros_set3","25 a 34","idade",29
+"outros_set3","35 a 44","idade",18
+"outros_set3","45 a 54","idade",9
+"outros_set3","55 ou mais","idade",7
+"outros_set3","Mais de 5","renda_familiar",21
+"outros_set3","2 a 5","renda_familiar",37
+"outros_set3","1 a 2","renda_familiar",27
+"outros_set3","Ate 1","renda_familiar",15
+"outros_set3","Fund. 1","escolaridade",9
+"outros_set3","Fund. 2","escolaridade",24
+"outros_set3","Medio","escolaridade",35
+"outros_set3","Superior","escolaridade",33
+"outros_set3","Nordeste","regiao",29
+"outros_set3","Norte/CO","regiao",11
+"outros_set3","Sudeste","regiao",42
+"outros_set3","Sul","regiao",18
+"outros_set3","Capital","condicao_municipio",44
+"outros_set3","Interior","condicao_municipio",36
+"outros_set3","Periferia","condicao_municipio",20
+"outros_set3","Catolica","religiao",55
+"outros_set3","Evangelica","religiao",16
+"outros_set3","Outras","religiao",29
+"outros_set3","Branca","cor",56
+"outros_set3","Preta ou parda","cor",44
+"outros_set3","Outras","cor",0
+"outros_set3","Tem muito interesse","interesse",16
+"outros_set3","Tem médio interesse","interesse",27
+"outros_set3","Não tem interesse","interesse",55
+"outros_set3","Satisfeito","vida_hoje",85
+"outros_set3","Insatisfeito","vida_hoje",15
+"outros_set3","Quer mudança","desejo_mudanca",71
+"outros_set3","Quer continuidade","desejo_mudanca",16
+"outros_set3","Aécio Neves","2turno_aecio",24
+"outros_set3","Branco e Nulo","2turno_aecio",24
+"outros_set3","Dilma Rousseff","2turno_aecio",42
+"outros_set3","Mulheres","sexo",44
+"outros_set3","Homens","sexo",56
+"outros_set3","Branco e Nulo","2turno_marina",24
+"outros_set3","Dilma Rousseff","2turno_marina",31
+"outros_set3","Marina Silva","2turno_marina",35
+"outros_set3","idade_media","idade_media","31,5"
+"outros_set3","renda_media","renda_media","2195,2"
+"outros_set3","anos_estudo","anos_estudo","12,8"
+"outros_set3","Regular","avaliacao_governo",40
+"outros_set3","Ótimo e bom","avaliacao_governo",31
+"outros_set3","Ruim e péssimo","avaliacao_governo",29
+"pastor_set3","16 a 24","idade",9
+"pastor_set3","25 a 34","idade",27
+"pastor_set3","35 a 44","idade",23
+"pastor_set3","45 a 54","idade",36
+"pastor_set3","55 ou mais","idade",5
+"pastor_set3","Mais de 5","renda_familiar",14
+"pastor_set3","2 a 5","renda_familiar",18
+"pastor_set3","1 a 2","renda_familiar",55
+"pastor_set3","Ate 1","renda_familiar",14
+"pastor_set3","Fund. 1","escolaridade",32
+"pastor_set3","Fund. 2","escolaridade",23
+"pastor_set3","Medio","escolaridade",36
+"pastor_set3","Superior","escolaridade",9
+"pastor_set3","Nordeste","regiao",27
+"pastor_set3","Norte/CO","regiao",9
+"pastor_set3","Sudeste","regiao",50
+"pastor_set3","Sul","regiao",14
+"pastor_set3","Capital","condicao_municipio",27
+"pastor_set3","Interior","condicao_municipio",55
+"pastor_set3","Periferia","condicao_municipio",18
+"pastor_set3","Catolica","religiao",32
+"pastor_set3","Evangelica","religiao",68
+"pastor_set3","Outras","religiao",0
+"pastor_set3","Branca","cor",32
+"pastor_set3","Preta ou parda","cor",68
+"pastor_set3","Outras","cor",0
+"pastor_set3","Tem muito interesse","interesse",18
+"pastor_set3","Tem médio interesse","interesse",14
+"pastor_set3","Não tem interesse","interesse",64
+"pastor_set3","Satisfeito","vida_hoje",64
+"pastor_set3","Insatisfeito","vida_hoje",36
+"pastor_set3","Quer mudança","desejo_mudanca",82
+"pastor_set3","Quer continuidade","desejo_mudanca",14
+"pastor_set3","Aécio Neves","2turno_aecio",55
+"pastor_set3","Branco e Nulo","2turno_aecio",9
+"pastor_set3","Dilma Rousseff","2turno_aecio",27
+"pastor_set3","Mulheres","sexo",55
+"pastor_set3","Homens","sexo",45
+"pastor_set3","Branco e Nulo","2turno_marina",9
+"pastor_set3","Dilma Rousseff","2turno_marina",23
+"pastor_set3","Marina Silva","2turno_marina",50
+"pastor_set3","idade_media","idade_media","39,7"
+"pastor_set3","renda_media","renda_media","1710,9"
+"pastor_set3","anos_estudo","anos_estudo","9,9"
+"pastor_set3","Regular","avaliacao_governo",36
+"pastor_set3","Ótimo e bom","avaliacao_governo",28
+"pastor_set3","Ruim e péssimo","avaliacao_governo",37
+"total","16 a 24","idade",19
+"total","25 a 34","idade",25
+"total","35 a 44","idade",21
+"total","45 a 54","idade",17
+"total","55 ou mais","idade",18
+"total","Mais de 5","renda_familiar",16
+"total","2 a 5","renda_familiar",36
+"total","1 a 2","renda_familiar",36
+"total","Ate 1","renda_familiar",11
+"total","Fund. 1","escolaridade",18
+"total","Fund. 2","escolaridade",22
+"total","Medio","escolaridade",42
+"total","Superior","escolaridade",18
+"total","Nordeste","regiao",26
+"total","Norte/CO","regiao",15
+"total","Sudeste","regiao",44
+"total","Sul","regiao",15
+"total","Capital","condicao_municipio",26
+"total","Interior","condicao_municipio",60
+"total","Periferia","condicao_municipio",14
+"total","Catolica","religiao",63
+"total","Evangelica","religiao",24
+"total","Outras","religiao",13
+"total","Branca","cor",42
+"total","Preta ou parda","cor",56
+"total","Outras","cor",2
+"total","Tem muito interesse","interesse",20
+"total","Tem médio interesse","interesse",34
+"total","Não tem interesse","interesse",46
+"total","Satisfeito","vida_hoje",79
+"total","Insatisfeito","vida_hoje",20
+"total","Quer mudança","desejo_mudanca",73
+"total","Quer continuidade","desejo_mudanca",25
+"total","Aécio Neves","2turno_aecio",35
+"total","Branco e Nulo","2turno_aecio",13
+"total","Dilma Rousseff","2turno_aecio",46
+"total","Mulheres","sexo",52
+"total","Homens","sexo",48
+"total","Branco e Nulo","2turno_marina",12
+"total","Dilma Rousseff","2turno_marina",41
+"total","Marina Silva","2turno_marina",41
+"total","idade_media","idade_media","38,7"
+"total","renda_media","renda_media","2036,5"
+"total","anos_estudo","anos_estudo","11,4"
+"total","Regular","avaliacao_governo",33
+"total","Ótimo e bom","avaliacao_governo",39
+"total","Ruim e péssimo","avaliacao_governo",28
