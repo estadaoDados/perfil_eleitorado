@@ -35,7 +35,8 @@ var Main = (function() {
             "2turno_aecio": ["Dilma Rousseff","Aécio Neves","Branco e Nulo"],
             "2turno_marina":["Marina Silva","Dilma Rousseff","Branco e Nulo"]
         }
-        possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago","dilma_set","aecio_set","pastor_set","outros_set","branco_set","indeciso_set","marina_set","dilma_set2","aecio_set2","pastor_set2","outros_set2","branco_set2","indeciso_set2","marina_set2","dilma_set3","aecio_set3","pastor_set3","outros_set3","branco_set3","indeciso_set3","marina_set3"],
+        possibilidades = ["campos","dilma_jul","dilma_ago", "aecio_jul","aecio_ago","pastor_jul","pastor_ago","outros_jul","outros_ago","branco_jul","branco_ago","indeciso_jul","indeciso_ago","marina13","marina10","marina_ago","dilma_set","aecio_set","pastor_set","outros_set","branco_set","indeciso_set","marina_set","dilma_set2","aecio_set2","pastor_set2","outros_set2","branco_set2","indeciso_set2","marina_set2","dilma_set3","aecio_set3","pastor_set3","outros_set3","branco_set3","indeciso_set3","marina_set3","dilma_set4","aecio_set4","pastor_set4","outros_set4","branco_set4","indeciso_set4","marina_set4"],
+
         complete_data = null,
         meuGrafico = null,
         lista_svgs = {
