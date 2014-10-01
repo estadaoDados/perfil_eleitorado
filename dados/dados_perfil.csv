@@ -1671,50 +1671,517 @@
 "pastor_set3","Regular","avaliacao_governo",36
 "pastor_set3","Ótimo e bom","avaliacao_governo",28
 "pastor_set3","Ruim e péssimo","avaliacao_governo",37
-"total","16 a 24","idade",19
+"total","16 a 24","idade",20
 "total","25 a 34","idade",25
-"total","35 a 44","idade",21
+"total","35 a 44","idade",20
 "total","45 a 54","idade",17
 "total","55 ou mais","idade",18
 "total","Mais de 5","renda_familiar",16
-"total","2 a 5","renda_familiar",36
-"total","1 a 2","renda_familiar",36
-"total","Ate 1","renda_familiar",11
-"total","Fund. 1","escolaridade",18
+"total","2 a 5","renda_familiar",41
+"total","1 a 2","renda_familiar",34
+"total","Ate 1","renda_familiar",9
+"total","Fund. 1","escolaridade",19
 "total","Fund. 2","escolaridade",22
 "total","Medio","escolaridade",42
 "total","Superior","escolaridade",18
 "total","Nordeste","regiao",26
-"total","Norte/CO","regiao",15
+"total","Norte/CO","regiao",14
 "total","Sudeste","regiao",44
 "total","Sul","regiao",15
 "total","Capital","condicao_municipio",26
-"total","Interior","condicao_municipio",60
-"total","Periferia","condicao_municipio",14
-"total","Catolica","religiao",63
-"total","Evangelica","religiao",24
-"total","Outras","religiao",13
+"total","Interior","condicao_municipio",61
+"total","Periferia","condicao_municipio",13
+"total","Catolica","religiao",64
+"total","Evangelica","religiao",22
+"total","Outras","religiao",14
 "total","Branca","cor",42
 "total","Preta ou parda","cor",56
 "total","Outras","cor",2
-"total","Tem muito interesse","interesse",20
-"total","Tem médio interesse","interesse",34
-"total","Não tem interesse","interesse",46
-"total","Satisfeito","vida_hoje",79
-"total","Insatisfeito","vida_hoje",20
-"total","Quer mudança","desejo_mudanca",73
-"total","Quer continuidade","desejo_mudanca",25
+"total","Tem muito interesse","interesse",18
+"total","Tem médio interesse","interesse",33
+"total","Não tem interesse","interesse",49
+"total","Satisfeito","vida_hoje",81
+"total","Insatisfeito","vida_hoje",19
+"total","Quer mudança","desejo_mudanca",68
+"total","Quer continuidade","desejo_mudanca",28
 "total","Aécio Neves","2turno_aecio",35
-"total","Branco e Nulo","2turno_aecio",13
-"total","Dilma Rousseff","2turno_aecio",46
-"total","Mulheres","sexo",52
-"total","Homens","sexo",48
-"total","Branco e Nulo","2turno_marina",12
-"total","Dilma Rousseff","2turno_marina",41
-"total","Marina Silva","2turno_marina",41
-"total","idade_media","idade_media","38,7"
-"total","renda_media","renda_media","2036,5"
+"total","Branco e Nulo","2turno_aecio",12
+"total","Dilma Rousseff","2turno_aecio",45
+"total","Mulheres","sexo",53
+"total","Homens","sexo",47
+"total","Aécio Neves","intencao_espontanea",16
+"total","Branco e Nulo","intencao_espontanea",9
+"total","Dilma Rousseff","intencao_espontanea",36
+"total","Marina Silva","intencao_espontanea",21
+"total","Outros","intencao_espontanea",2
+"total","Pastor Everaldo","intencao_espontanea",1
+"total","Bolsa Família","bolsa1",12
+"total","BPC - Benefício de Prestação Continuada/ Salário mínimo para idosos ou deficientes","bolsa1",1
+"total","Farmácias Populares/ distribuição de remédios","bolsa1",2
+"total","FIES - Financiamento para educação superior","bolsa1",1
+"total","Não participa de nenhum","bolsa1",80
+"total","Não sabe/ Não respondeu","bolsa1",1
+"total","Outros","bolsa1",1
+"total","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",1
+"total","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa1",0
+"total","Prouni - Programa Universidade para Todos","bolsa1",1
+"total","Bolsa Família","bolsa2",14
+"total","Farmácias Populares/ distribuição de remédios","bolsa2",2
+"total","FIES - Financiamento para educação superior","bolsa2",1
+"total","Não sabe/ Não respondeu","bolsa2",3
+"total","Ninguém da sua família","bolsa2",78
+"total","Outros","bolsa2",1
+"total","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa2",1
+"total","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa2",0
+"total","Prouni - Programa Universidade para Todos","bolsa2",1
+"total","idade_media","idade_media","38,5"
+"total","renda_media","renda_media","2134,2"
 "total","anos_estudo","anos_estudo","11,4"
-"total","Regular","avaliacao_governo",33
-"total","Ótimo e bom","avaliacao_governo",39
-"total","Ruim e péssimo","avaliacao_governo",28
+"dilma_set4","16 a 24","idade",17
+"dilma_set4","25 a 34","idade",23
+"dilma_set4","35 a 44","idade",20
+"dilma_set4","45 a 54","idade",20
+"dilma_set4","55 ou mais","idade",19
+"dilma_set4","Mais de 5","renda_familiar",10
+"dilma_set4","2 a 5","renda_familiar",40
+"dilma_set4","1 a 2","renda_familiar",37
+"dilma_set4","Ate 1","renda_familiar",13
+"dilma_set4","Fund. 1","escolaridade",23
+"dilma_set4","Fund. 2","escolaridade",26
+"dilma_set4","Medio","escolaridade",38
+"dilma_set4","Superior","escolaridade",13
+"dilma_set4","Nordeste","regiao",33
+"dilma_set4","Norte/CO","regiao",16
+"dilma_set4","Sudeste","regiao",35
+"dilma_set4","Sul","regiao",16
+"dilma_set4","Capital","condicao_municipio",23
+"dilma_set4","Interior","condicao_municipio",65
+"dilma_set4","Periferia","condicao_municipio",12
+"dilma_set4","Catolica","religiao",71
+"dilma_set4","Evangelica","religiao",18
+"dilma_set4","Outras","religiao",11
+"dilma_set4","Branca","cor",40
+"dilma_set4","Preta ou parda","cor",58
+"dilma_set4","Outras","cor",2
+"dilma_set4","Tem muito interesse","interesse",19
+"dilma_set4","Tem médio interesse","interesse",38
+"dilma_set4","Não tem interesse","interesse",42
+"dilma_set4","Satisfeito","vida_hoje",86
+"dilma_set4","Insatisfeito","vida_hoje",14
+"dilma_set4","Quer mudança","desejo_mudanca",50
+"dilma_set4","Quer continuidade","desejo_mudanca",49
+"dilma_set4","Aécio Neves","2turno_aecio",3
+"dilma_set4","Branco e Nulo","2turno_aecio",0
+"dilma_set4","Dilma Rousseff","2turno_aecio",96
+"dilma_set4","Mulheres","sexo",52
+"dilma_set4","Homens","sexo",48
+"dilma_set4","Aécio Neves","intencao_espontanea",1
+"dilma_set4","Branco e Nulo","intencao_espontanea",2
+"dilma_set4","Dilma Rousseff","intencao_espontanea",86
+"dilma_set4","Marina Silva","intencao_espontanea",2
+"dilma_set4","Outros","intencao_espontanea",0
+"dilma_set4","Bolsa Família","bolsa1",18
+"dilma_set4","BPC - Benefício de Prestação Continuada/ Salário mínimo para idosos ou deficientes","bolsa1",1
+"dilma_set4","Farmácias Populares/ distribuição de remédios","bolsa1",3
+"dilma_set4","FIES - Financiamento para educação superior","bolsa1",1
+"dilma_set4","Não participa de nenhum","bolsa1",72
+"dilma_set4","Não sabe/ Não respondeu","bolsa1",1
+"dilma_set4","Outros","bolsa1",1
+"dilma_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",1
+"dilma_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa1",1
+"dilma_set4","Prouni - Programa Universidade para Todos","bolsa1",0
+"dilma_set4","Bolsa Família","bolsa2",19
+"dilma_set4","Farmácias Populares/ distribuição de remédios","bolsa2",2
+"dilma_set4","FIES - Financiamento para educação superior","bolsa2",1
+"dilma_set4","Não sabe/ Não respondeu","bolsa2",3
+"dilma_set4","Ninguém da sua família","bolsa2",72
+"dilma_set4","Outros","bolsa2",2
+"dilma_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa2",1
+"dilma_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa2",0
+"dilma_set4","Prouni - Programa Universidade para Todos","bolsa2",1
+"dilma_set4","idade_media","idade_media","39,4"
+"dilma_set4","renda_media","renda_media","1895,9"
+"dilma_set4","anos_estudo","anos_estudo","10,6"
+"aecio_set4","16 a 24","idade",21
+"aecio_set4","25 a 34","idade",23
+"aecio_set4","35 a 44","idade",23
+"aecio_set4","45 a 54","idade",16
+"aecio_set4","55 ou mais","idade",16
+"aecio_set4","Mais de 5","renda_familiar",25
+"aecio_set4","2 a 5","renda_familiar",45
+"aecio_set4","1 a 2","renda_familiar",26
+"aecio_set4","Ate 1","renda_familiar",4
+"aecio_set4","Fund. 1","escolaridade",13
+"aecio_set4","Fund. 2","escolaridade",15
+"aecio_set4","Medio","escolaridade",47
+"aecio_set4","Superior","escolaridade",25
+"aecio_set4","Nordeste","regiao",14
+"aecio_set4","Norte/CO","regiao",12
+"aecio_set4","Sudeste","regiao",54
+"aecio_set4","Sul","regiao",20
+"aecio_set4","Capital","condicao_municipio",24
+"aecio_set4","Interior","condicao_municipio",65
+"aecio_set4","Periferia","condicao_municipio",10
+"aecio_set4","Catolica","religiao",72
+"aecio_set4","Evangelica","religiao",17
+"aecio_set4","Outras","religiao",12
+"aecio_set4","Branca","cor",53
+"aecio_set4","Preta ou parda","cor",45
+"aecio_set4","Outras","cor",2
+"aecio_set4","Tem muito interesse","interesse",23
+"aecio_set4","Tem médio interesse","interesse",38
+"aecio_set4","Não tem interesse","interesse",39
+"aecio_set4","Satisfeito","vida_hoje",79
+"aecio_set4","Insatisfeito","vida_hoje",21
+"aecio_set4","Quer mudança","desejo_mudanca",84
+"aecio_set4","Quer continuidade","desejo_mudanca",15
+"aecio_set4","Aécio Neves","2turno_aecio",96
+"aecio_set4","Dilma Rousseff","2turno_aecio",2
+"aecio_set4","Mulheres","sexo",51
+"aecio_set4","Homens","sexo",49
+"aecio_set4","Aécio Neves","intencao_espontanea",79
+"aecio_set4","Branco e Nulo","intencao_espontanea",3
+"aecio_set4","Dilma Rousseff","intencao_espontanea",2
+"aecio_set4","Marina Silva","intencao_espontanea",2
+"aecio_set4","Outros","intencao_espontanea",0
+"aecio_set4","Bolsa Família","bolsa1",5
+"aecio_set4","BPC - Benefício de Prestação Continuada/ Salário mínimo para idosos ou deficientes","bolsa1",1
+"aecio_set4","Farmácias Populares/ distribuição de remédios","bolsa1",2
+"aecio_set4","FIES - Financiamento para educação superior","bolsa1",1
+"aecio_set4","Não participa de nenhum","bolsa1",88
+"aecio_set4","Não sabe/ Não respondeu","bolsa1",1
+"aecio_set4","Outros","bolsa1",1
+"aecio_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",1
+"aecio_set4","Prouni - Programa Universidade para Todos","bolsa1",1
+"aecio_set4","Bolsa Família","bolsa2",9
+"aecio_set4","Farmácias Populares/ distribuição de remédios","bolsa2",2
+"aecio_set4","FIES - Financiamento para educação superior","bolsa2",1
+"aecio_set4","Não sabe/ Não respondeu","bolsa2",3
+"aecio_set4","Ninguém da sua família","bolsa2",84
+"aecio_set4","Outros","bolsa2",1
+"aecio_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa2",0
+"aecio_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa2",0
+"aecio_set4","Prouni - Programa Universidade para Todos","bolsa2",1
+"aecio_set4","idade_media","idade_media","37,6"
+"aecio_set4","renda_media","renda_media","2520,6"
+"aecio_set4","anos_estudo","anos_estudo","12,4"
+"marina_set4","16 a 24","idade",23
+"marina_set4","25 a 34","idade",30
+"marina_set4","35 a 44","idade",19
+"marina_set4","45 a 54","idade",14
+"marina_set4","55 ou mais","idade",14
+"marina_set4","Mais de 5","renda_familiar",18
+"marina_set4","2 a 5","renda_familiar",43
+"marina_set4","1 a 2","renda_familiar",32
+"marina_set4","Ate 1","renda_familiar",7
+"marina_set4","Fund. 1","escolaridade",13
+"marina_set4","Fund. 2","escolaridade",20
+"marina_set4","Medio","escolaridade",47
+"marina_set4","Superior","escolaridade",21
+"marina_set4","Nordeste","regiao",27
+"marina_set4","Norte/CO","regiao",16
+"marina_set4","Sudeste","regiao",47
+"marina_set4","Sul","regiao",10
+"marina_set4","Capital","condicao_municipio",27
+"marina_set4","Interior","condicao_municipio",56
+"marina_set4","Periferia","condicao_municipio",17
+"marina_set4","Catolica","religiao",52
+"marina_set4","Evangelica","religiao",34
+"marina_set4","Outras","religiao",14
+"marina_set4","Branca","cor",38
+"marina_set4","Preta ou parda","cor",59
+"marina_set4","Outras","cor",3
+"marina_set4","Tem muito interesse","interesse",20
+"marina_set4","Tem médio interesse","interesse",31
+"marina_set4","Não tem interesse","interesse",49
+"marina_set4","Satisfeito","vida_hoje",80
+"marina_set4","Insatisfeito","vida_hoje",19
+"marina_set4","Quer mudança","desejo_mudanca",82
+"marina_set4","Quer continuidade","desejo_mudanca",16
+"marina_set4","Aécio Neves","2turno_aecio",52
+"marina_set4","Branco e Nulo","2turno_aecio",16
+"marina_set4","Dilma Rousseff","2turno_aecio",24
+"marina_set4","Mulheres","sexo",54
+"marina_set4","Homens","sexo",46
+"marina_set4","Aécio Neves","intencao_espontanea",1
+"marina_set4","Branco e Nulo","intencao_espontanea",3
+"marina_set4","Dilma Rousseff","intencao_espontanea",3
+"marina_set4","Marina Silva","intencao_espontanea",79
+"marina_set4","Outros","intencao_espontanea",0
+"marina_set4","Bolsa Família","bolsa1",9
+"marina_set4","BPC - Benefício de Prestação Continuada/ Salário mínimo para idosos ou deficientes","bolsa1",0
+"marina_set4","Farmácias Populares/ distribuição de remédios","bolsa1",2
+"marina_set4","FIES - Financiamento para educação superior","bolsa1",2
+"marina_set4","Não participa de nenhum","bolsa1",84
+"marina_set4","Não sabe/ Não respondeu","bolsa1",0
+"marina_set4","Outros","bolsa1",1
+"marina_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",1
+"marina_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa1",0
+"marina_set4","Prouni - Programa Universidade para Todos","bolsa1",1
+"marina_set4","Bolsa Família","bolsa2",11
+"marina_set4","Farmácias Populares/ distribuição de remédios","bolsa2",1
+"marina_set4","FIES - Financiamento para educação superior","bolsa2",1
+"marina_set4","Não sabe/ Não respondeu","bolsa2",3
+"marina_set4","Ninguém da sua família","bolsa2",81
+"marina_set4","Outros","bolsa2",1
+"marina_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa2",1
+"marina_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa2",1
+"marina_set4","Prouni - Programa Universidade para Todos","bolsa2",1
+"marina_set4","idade_media","idade_media","36,3"
+"marina_set4","renda_media","renda_media","2242,6"
+"marina_set4","anos_estudo","anos_estudo","12,1"
+"pastor_set4","16 a 24","idade",35
+"pastor_set4","25 a 34","idade",23
+"pastor_set4","35 a 44","idade",8
+"pastor_set4","45 a 54","idade",15
+"pastor_set4","55 ou mais","idade",19
+"pastor_set4","Mais de 5","renda_familiar",29
+"pastor_set4","2 a 5","renda_familiar",19
+"pastor_set4","1 a 2","renda_familiar",43
+"pastor_set4","Ate 1","renda_familiar",10
+"pastor_set4","Fund. 1","escolaridade",23
+"pastor_set4","Fund. 2","escolaridade",35
+"pastor_set4","Medio","escolaridade",35
+"pastor_set4","Superior","escolaridade",8
+"pastor_set4","Nordeste","regiao",31
+"pastor_set4","Norte/CO","regiao",12
+"pastor_set4","Sudeste","regiao",42
+"pastor_set4","Sul","regiao",15
+"pastor_set4","Capital","condicao_municipio",38
+"pastor_set4","Interior","condicao_municipio",46
+"pastor_set4","Periferia","condicao_municipio",15
+"pastor_set4","Catolica","religiao",23
+"pastor_set4","Evangelica","religiao",65
+"pastor_set4","Outras","religiao",12
+"pastor_set4","Branca","cor",31
+"pastor_set4","Preta ou parda","cor",65
+"pastor_set4","Outras","cor",4
+"pastor_set4","Tem muito interesse","interesse",12
+"pastor_set4","Tem médio interesse","interesse",19
+"pastor_set4","Não tem interesse","interesse",69
+"pastor_set4","Satisfeito","vida_hoje",73
+"pastor_set4","Insatisfeito","vida_hoje",27
+"pastor_set4","Quer mudança","desejo_mudanca",88
+"pastor_set4","Quer continuidade","desejo_mudanca",12
+"pastor_set4","Aécio Neves","2turno_aecio",35
+"pastor_set4","Branco e Nulo","2turno_aecio",35
+"pastor_set4","Dilma Rousseff","2turno_aecio",23
+"pastor_set4","Mulheres","sexo",50
+"pastor_set4","Homens","sexo",50
+"pastor_set4","Branco e Nulo","intencao_espontanea",4
+"pastor_set4","Dilma Rousseff","intencao_espontanea",15
+"pastor_set4","Pastor Everaldo","intencao_espontanea",58
+"pastor_set4","Bolsa Família","bolsa1",8
+"pastor_set4","Não participa de nenhum","bolsa1",85
+"pastor_set4","Outros","bolsa1",4
+"pastor_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",4
+"pastor_set4","Bolsa Família","bolsa2",4
+"pastor_set4","Não sabe/ Não respondeu","bolsa2",4
+"pastor_set4","Ninguém da sua família","bolsa2",92
+"pastor_set4","idade_media","idade_media","35,8"
+"pastor_set4","renda_media","renda_media","2241,5"
+"pastor_set4","anos_estudo","anos_estudo","10,2"
+"outros_set4","16 a 24","idade",25
+"outros_set4","25 a 34","idade",31
+"outros_set4","35 a 44","idade",19
+"outros_set4","45 a 54","idade",9
+"outros_set4","55 ou mais","idade",15
+"outros_set4","Mais de 5","renda_familiar",35
+"outros_set4","2 a 5","renda_familiar",42
+"outros_set4","1 a 2","renda_familiar",22
+"outros_set4","Ate 1","renda_familiar",2
+"outros_set4","Fund. 1","escolaridade",6
+"outros_set4","Fund. 2","escolaridade",25
+"outros_set4","Medio","escolaridade",34
+"outros_set4","Superior","escolaridade",34
+"outros_set4","Nordeste","regiao",7
+"outros_set4","Norte/CO","regiao",10
+"outros_set4","Sudeste","regiao",52
+"outros_set4","Sul","regiao",30
+"outros_set4","Capital","condicao_municipio",42
+"outros_set4","Interior","condicao_municipio",37
+"outros_set4","Periferia","condicao_municipio",21
+"outros_set4","Catolica","religiao",33
+"outros_set4","Evangelica","religiao",15
+"outros_set4","Outras","religiao",52
+"outros_set4","Branca","cor",60
+"outros_set4","Preta ou parda","cor",37
+"outros_set4","Outras","cor",3
+"outros_set4","Tem muito interesse","interesse",24
+"outros_set4","Tem médio interesse","interesse",21
+"outros_set4","Não tem interesse","interesse",55
+"outros_set4","Satisfeito","vida_hoje",69
+"outros_set4","Insatisfeito","vida_hoje",31
+"outros_set4","Quer mudança","desejo_mudanca",82
+"outros_set4","Quer continuidade","desejo_mudanca",16
+"outros_set4","Aécio Neves","2turno_aecio",36
+"outros_set4","Branco e Nulo","2turno_aecio",18
+"outros_set4","Dilma Rousseff","2turno_aecio",40
+"outros_set4","Mulheres","sexo",51
+"outros_set4","Homens","sexo",49
+"outros_set4","Aécio Neves","intencao_espontanea",1
+"outros_set4","Branco e Nulo","intencao_espontanea",10
+"outros_set4","Dilma Rousseff","intencao_espontanea",6
+"outros_set4","Marina Silva","intencao_espontanea",3
+"outros_set4","Outros","intencao_espontanea",60
+"outros_set4","Pastor Everaldo","intencao_espontanea",1
+"outros_set4","Bolsa Família","bolsa1",6
+"outros_set4","BPC - Benefício de Prestação Continuada/ Salário mínimo para idosos ou deficientes","bolsa1",3
+"outros_set4","FIES - Financiamento para educação superior","bolsa1",1
+"outros_set4","Não participa de nenhum","bolsa1",79
+"outros_set4","Não sabe/ Não respondeu","bolsa1",1
+"outros_set4","Outros","bolsa1",1
+"outros_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa1",1
+"outros_set4","Prouni - Programa Universidade para Todos","bolsa1",6
+"outros_set4","Bolsa Família","bolsa2",10
+"outros_set4","FIES - Financiamento para educação superior","bolsa2",1
+"outros_set4","Não sabe/ Não respondeu","bolsa2",6
+"outros_set4","Ninguém da sua família","bolsa2",78
+"outros_set4","Outros","bolsa2",3
+"outros_set4","Prouni - Programa Universidade para Todos","bolsa2",1
+"outros_set4","idade_media","idade_media","35,1"
+"outros_set4","renda_media","renda_media","2827,3"
+"outros_set4","anos_estudo","anos_estudo","12,8"
+"indeciso_set4","16 a 24","idade",12
+"indeciso_set4","25 a 34","idade",19
+"indeciso_set4","35 a 44","idade",21
+"indeciso_set4","45 a 54","idade",18
+"indeciso_set4","55 ou mais","idade",31
+"indeciso_set4","Mais de 5","renda_familiar",12
+"indeciso_set4","2 a 5","renda_familiar",27
+"indeciso_set4","1 a 2","renda_familiar",44
+"indeciso_set4","Ate 1","renda_familiar",17
+"indeciso_set4","Fund. 1","escolaridade",31
+"indeciso_set4","Fund. 2","escolaridade",26
+"indeciso_set4","Medio","escolaridade",29
+"indeciso_set4","Superior","escolaridade",13
+"indeciso_set4","Nordeste","regiao",30
+"indeciso_set4","Norte/CO","regiao",16
+"indeciso_set4","Sudeste","regiao",38
+"indeciso_set4","Sul","regiao",16
+"indeciso_set4","Capital","condicao_municipio",26
+"indeciso_set4","Interior","condicao_municipio",64
+"indeciso_set4","Periferia","condicao_municipio",10
+"indeciso_set4","Catolica","religiao",65
+"indeciso_set4","Evangelica","religiao",21
+"indeciso_set4","Outras","religiao",14
+"indeciso_set4","Branca","cor",39
+"indeciso_set4","Preta ou parda","cor",58
+"indeciso_set4","Outras","cor",3
+"indeciso_set4","Tem muito interesse","interesse",8
+"indeciso_set4","Tem médio interesse","interesse",26
+"indeciso_set4","Não tem interesse","interesse",63
+"indeciso_set4","Satisfeito","vida_hoje",80
+"indeciso_set4","Insatisfeito","vida_hoje",19
+"indeciso_set4","Quer mudança","desejo_mudanca",60
+"indeciso_set4","Quer continuidade","desejo_mudanca",23
+"indeciso_set4","Aécio Neves","2turno_aecio",10
+"indeciso_set4","Branco e Nulo","2turno_aecio",9
+"indeciso_set4","Dilma Rousseff","2turno_aecio",9
+"indeciso_set4","Mulheres","sexo",62
+"indeciso_set4","Homens","sexo",38
+"indeciso_set4","Aécio Neves","intencao_espontanea",1
+"indeciso_set4","Branco e Nulo","intencao_espontanea",3
+"indeciso_set4","Dilma Rousseff","intencao_espontanea",9
+"indeciso_set4","Marina Silva","intencao_espontanea",4
+"indeciso_set4","Bolsa Família","bolsa1",13
+"indeciso_set4","Farmácias Populares/ distribuição de remédios","bolsa1",3
+"indeciso_set4","FIES - Financiamento para educação superior","bolsa1",1
+"indeciso_set4","Não participa de nenhum","bolsa1",77
+"indeciso_set4","Não sabe/ Não respondeu","bolsa1",4
+"indeciso_set4","Outros","bolsa1",1
+"indeciso_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",0
+"indeciso_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa1",0
+"indeciso_set4","Bolsa Família","bolsa2",13
+"indeciso_set4","Farmácias Populares/ distribuição de remédios","bolsa2",2
+"indeciso_set4","FIES - Financiamento para educação superior","bolsa2",0
+"indeciso_set4","Não sabe/ Não respondeu","bolsa2",4
+"indeciso_set4","Ninguém da sua família","bolsa2",79
+"indeciso_set4","Outros","bolsa2",0
+"indeciso_set4","Prouni - Programa Universidade para Todos","bolsa2",0
+"indeciso_set4","idade_media","idade_media","43,8"
+"indeciso_set4","renda_media","renda_media","1743,6"
+"indeciso_set4","anos_estudo","anos_estudo","9,9"
+"branco_set4","16 a 24","idade",20
+"branco_set4","25 a 34","idade",26
+"branco_set4","35 a 44","idade",19
+"branco_set4","45 a 54","idade",19
+"branco_set4","55 ou mais","idade",16
+"branco_set4","Mais de 5","renda_familiar",16
+"branco_set4","2 a 5","renda_familiar",38
+"branco_set4","1 a 2","renda_familiar",38
+"branco_set4","Ate 1","renda_familiar",8
+"branco_set4","Fund. 1","escolaridade",20
+"branco_set4","Fund. 2","escolaridade",18
+"branco_set4","Medio","escolaridade",43
+"branco_set4","Superior","escolaridade",18
+"branco_set4","Nordeste","regiao",20
+"branco_set4","Norte/CO","regiao",8
+"branco_set4","Sudeste","regiao",58
+"branco_set4","Sul","regiao",13
+"branco_set4","Capital","condicao_municipio",32
+"branco_set4","Interior","condicao_municipio",52
+"branco_set4","Periferia","condicao_municipio",16
+"branco_set4","Catolica","religiao",56
+"branco_set4","Evangelica","religiao",18
+"branco_set4","Outras","religiao",26
+"branco_set4","Branca","cor",41
+"branco_set4","Preta ou parda","cor",56
+"branco_set4","Outras","cor",3
+"branco_set4","Tem muito interesse","interesse",3
+"branco_set4","Tem médio interesse","interesse",8
+"branco_set4","Não tem interesse","interesse",89
+"branco_set4","Satisfeito","vida_hoje",67
+"branco_set4","Insatisfeito","vida_hoje",32
+"branco_set4","Quer mudança","desejo_mudanca",81
+"branco_set4","Quer continuidade","desejo_mudanca",7
+"branco_set4","Aécio Neves","2turno_aecio",5
+"branco_set4","Branco e Nulo","2turno_aecio",86
+"branco_set4","Dilma Rousseff","2turno_aecio",3
+"branco_set4","Mulheres","sexo",50
+"branco_set4","Homens","sexo",50
+"branco_set4","Branco e Nulo","intencao_espontanea",84
+"branco_set4","Outros","intencao_espontanea",1
+"branco_set4","Bolsa Família","bolsa1",4
+"branco_set4","Farmácias Populares/ distribuição de remédios","bolsa1",1
+"branco_set4","FIES - Financiamento para educação superior","bolsa1",1
+"branco_set4","Não participa de nenhum","bolsa1",90
+"branco_set4","Não sabe/ Não respondeu","bolsa1",1
+"branco_set4","Outros","bolsa1",1
+"branco_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa1",0
+"branco_set4","Prouni - Programa Universidade para Todos","bolsa1",1
+"branco_set4","Bolsa Família","bolsa2",8
+"branco_set4","Farmácias Populares/ distribuição de remédios","bolsa2",1
+"branco_set4","FIES - Financiamento para educação superior","bolsa2",0
+"branco_set4","Não sabe/ Não respondeu","bolsa2",3
+"branco_set4","Ninguém da sua família","bolsa2",86
+"branco_set4","Programa Minha Casa Minha Vida/ incentivo à compra da casa própria","bolsa2",0
+"branco_set4","Pronatec - Programa Nacional de acesso ao Ensino Técnico e Emprego","bolsa2",0
+"branco_set4","Prouni - Programa Universidade para Todos","bolsa2",1
+"branco_set4","idade_media","idade_media","38,2"
+"branco_set4","renda_media","renda_media",2098
+"branco_set4","anos_estudo","anos_estudo","11,3"
+"total_set4","Regular","avaliacao_governo",33
+"dilma_set4","Regular","avaliacao_governo",19
+"aecio_set4","Regular","avaliacao_governo",43
+"marina_set4","Regular","avaliacao_governo",43
+"pastor_set4","Regular","avaliacao_governo",35
+"outros_set4","Regular","avaliacao_governo",51
+"indeciso_set4","Regular","avaliacao_governo",45
+"branco_set4","Regular","avaliacao_governo",35
+"total_set4","Ótimo e bom","avaliacao_governo",38
+"total_set4","Ruim e péssimo","avaliacao_governo",28
+"dilma_set4","Ótimo e bom","avaliacao_governo",78
+"dilma_set4","Ruim e péssimo","avaliacao_governo",2
+"aecio_set4","Ótimo e bom","avaliacao_governo",9
+"aecio_set4","Ruim e péssimo","avaliacao_governo",48
+"marina_set4","Ótimo e bom","avaliacao_governo",13
+"marina_set4","Ruim e péssimo","avaliacao_governo",44
+"pastor_set4","Ótimo e bom","avaliacao_governo",19
+"pastor_set4","Ruim e péssimo","avaliacao_governo",46
+"outros_set4","Ótimo e bom","avaliacao_governo",15
+"outros_set4","Ruim e péssimo","avaliacao_governo",34
+"indeciso_set4","Ótimo e bom","avaliacao_governo",27
+"indeciso_set4","Ruim e péssimo","avaliacao_governo",18
+"branco_set4","Ótimo e bom","avaliacao_governo",5
+"branco_set4","Ruim e péssimo","avaliacao_governo",57
