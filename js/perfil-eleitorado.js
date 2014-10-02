@@ -1,7 +1,7 @@
 var Main = (function() {
 
     var candidato = null,
-        defaulCand = 'dilma_set4',
+        defaulCand = 'dilma_out1',
         categoria = ["sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","2turno_marina"],
         converte_cat = {
             "sexo":"Sexo",
